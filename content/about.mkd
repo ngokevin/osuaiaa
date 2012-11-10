@@ -1,4 +1,4 @@
-title: About Us
+title: About
 slug: about
 
 tags: navigation

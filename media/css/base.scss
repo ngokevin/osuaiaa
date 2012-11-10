@@ -1,7 +1,7 @@
 @import "globals.scss";
 
 body {
-    background: url('/img/low_contrast_linen.png') repeat scroll 0 0;
+    background: url('/img/textures/low_contrast_linen.png') repeat scroll 0 0;
     background-color: rgb(250, 250, 255);
     color: $white;
     font-family: 'Scada', sans-serif;
@@ -39,11 +39,11 @@ p, li {
 }
 
 a {
-    color: $light-blue;
+    color: $orange;
     font-weight: bold;
     text-decoration: none;
     &:hover {
-        color: $light-blue;
+        color: $orange;
         text-decoration: underline;
     }
 }
@@ -57,11 +57,20 @@ ul, ol {
     }
 }
 
-.main {
+hr {
+    @include img-box-shadow();
+    color: $black;
+}
+
+.header {
     margin-top: 13px;
     img {
-        @include img-box-shadow();
+        opacity: .65;
     }
+}
+
+.main {
+    margin-top: 13px;
     p {
         img {
             margin-bottom: 5px;
@@ -132,19 +141,17 @@ ul, ol {
     a {
         padding: 15px;
         margin-left: 5px;
-        color: $gray;
+        color: $light-gray;
         font-weight: bold;
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
         border-radius: 5px;
         &:hover {
             text-decoration: none;
-            color: $gray;
-            background-color: $white;
+            color: $light-gray;
         }
         &.current_nav {
-            @include box-shadow(1px 1px 1px $light-gray);
-            background-color: $white;
+            color: $white;
         }
     }
 }
@@ -198,7 +205,7 @@ ul.subpage-list {
 }
 
 .footer {
-    @include img-box-shadow();
+    background: url('/img/textures/assault.png') repeat scroll 0 0;
     background-color: $white;
     padding-top: 20px;
     text-align:center;

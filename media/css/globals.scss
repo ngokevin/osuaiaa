@@ -1,13 +1,9 @@
 $black: rgb(10, 10, 10);
 $gray: rgb(90, 90, 90);
-$light-gray: rgb(170, 170, 170);
-$white: rgb(245, 245, 245);
+$light-gray: rgb(180, 180, 180);
+$white: rgb(235, 235, 235);
 
-$orange: rgb(242, 98, 34);
-$creamy-orange: rgb(248, 205, 126);
-
-$light-blue: rgb(15, 148, 138);
-$dark-blue: rgb(10, 42, 104);
+$orange: rgb(226, 179, 65);
 
 @mixin box-shadow($shadow) {
     -moz-box-shadow: $shadow;

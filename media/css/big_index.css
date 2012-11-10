@@ -5,9 +5,9 @@ h3.big-index-title {
   margin-bottom: 0;
   line-height: 1.15em; }
   h3.big-index-title a {
-    color: #f26222; }
+    color: #e2b341; }
     h3.big-index-title a:hover {
-      color: #f26222;
+      color: #e2b341;
       text-decoration: underline; }
 
 .big-index-heading {
@@ -38,5 +38,5 @@ h3.big-index-title {
   margin-bottom: 1.4em; }
 
 .metadata {
-  color: #aaaaaa;
+  color: #b4b4b4;
   font-weight: bold; }

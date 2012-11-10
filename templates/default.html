@@ -1,11 +1,14 @@
 {% extends "base.html" %}
 
 {% block title %}
+  {% if not page.navrank %}
     <h2>{{ page.title }}</h2>
-    {% include "metadata.html" %}
+  {% endif %}
+  {% include "metadata.html" %}
 {% endblock %}
+
 {% block content %}
-    <div class="page">
-        {{ page.content }}
-    </div>
+  <div class="page">
+    {{ page.content }}
+  </div>
 {% endblock %}
