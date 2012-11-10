@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %}
+    <h2>{{ page.title }}</h2>
+    {% include "metadata.html" %}
+{% endblock %}
+{% block content %}
+    <div class="page">
+        {{ page.content }}
+    </div>
+{% endblock %}

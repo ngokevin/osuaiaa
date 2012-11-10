@@ -1,0 +1,2 @@
+site_title: OSU American Institute of Aeronautics and Astronautics
+url_pattern: "/{category}/{slug}/{page}/"

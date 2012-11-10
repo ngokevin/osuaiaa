@@ -1,0 +1,49 @@
+title: Home
+type: home
+
+url: /index{page}.html
+
+pagination:
+    limit: 3
+    post_limit: 9
+
+---
+
+#Welcome to the OSU AIAA Website!
+
+The Oregon State University branch of AIAA (American Institute of Aeronautics
+and Astronautics) is a new student organization. The goal of OSU AIAA is to
+promote student interest in aerospace engineering with hands-on research and
+design projects. With Oregon State University currently lacking an aerospace
+engineering program, OSU AIAA intends to fill that void by becoming the
+university's platform for students interested in aerospace engineering.
+
+OSU AIAA is a student branch under the American Institute of Aeronautics and
+Astronautics. The purpose of the organization is to promote research and
+education in the design and implementation of various aerospace engineering
+disciplines. Our student organization seeks to compete with other colleges and
+universities in engineering and design competitions. OSU AIAA is also a facet
+through which companies can connect with the university by bringing in guest
+speakers from the professional industry and encouraging student tours of their
+facilities.
+
+##Schedule
+
+Member's meetings in Kearney 112 at 6:00 on the 2nd Wednesday of every month.
+Design / Build / Fly Team meetings in Rogers 304 at 3:00 every Friday.
+Design / Build / Launch Team meetings TBD
+
+##Mailing List
+
+OSU AIAA has a mailing list! Subscribe to the mailing list by following the
+link below.
+https://secure.engr.oregonstate.edu/mailman/listinfo/osuaiaa_members
+
+##How to Join
+
+Becoming a member of AIAA is easy. Simply follow the link to the AIAA website
+and sign up to become an official student AIAA member. This costs 20 dollars
+but being a part of a professional aerospace engineering society is well worth
+it. Once you have completed that, sign up for our mailing list so you know
+about upcoming events such as DBF meetings, guest speakers, and company tours.
+https://www.aiaa.org/SecondaryTwoColumn.aspx?id=255

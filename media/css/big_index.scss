@@ -1,0 +1,55 @@
+@import "globals.scss";
+
+h3.big-index-title {
+    display: block;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 0;
+    line-height: 1.15em;
+    a {
+        color: $orange;
+        &:hover {
+            color: $orange;
+            text-decoration: underline;
+        }
+    }
+}
+
+.big-index-heading {
+    margin-top: 13px;
+}
+
+#home .big-index img { margin: 20px 20px 20px 0; }
+.big-index {
+    img {
+        float: left;
+        margin: 9px 20px 12px 0;
+        max-height: 210px;
+        max-width: 210px;
+    }
+    pre, code {
+        display: none;
+    }
+}
+
+.big-index-item hr, hr.blog-divider {
+    clear: both;
+    margin-top: 2em;
+}
+
+.big-index-post {
+    margin-top: 13px;
+    text-align: justify;
+    h1, h2, h3, img, li {
+        display: none;
+    }
+}
+
+.paging {
+    margin-bottom: 1.4em;
+}
+
+.metadata {
+    color: $light-gray;
+    font-weight: bold;
+}

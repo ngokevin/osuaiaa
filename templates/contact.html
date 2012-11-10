@@ -1,0 +1,11 @@
+{% extends "default.html" %}
+
+{% block content %}
+    {{ super() }}
+
+    <hr class="padded">
+    <h2>Officers</h2>
+
+    {% set people_tag = "officer" %}
+    {% include "people.html" with context %}
+{% endblock %}

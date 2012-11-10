@@ -1,0 +1,42 @@
+title: About Us
+slug: about
+
+tags: navigation
+navrank: 1
+
+image:
+    url: /img/logo1.png
+    where: right
+    caption: 'OSU AIAA'
+
+---
+
+# OSU AIAA
+
+The OSU AIAA branch was founded by people who have a passion for aerospace. Our
+goal is to promote aerospace education and experience. We believe that as
+Engineers we should be capable of building what we design. This means that we
+are a very product oriented organization that is dedicated to making our
+designs fly.
+
+## Club Goals
+
+- Provide hands-on aerospace engineering projects/student competitions
+- Offer opportunities for members to visit aerospace companies, facilities, and
+  conferences
+- Invite notable aerospace speakers to OSU to give presentations to members
+- Help introduce aerospace electives back into the OSU engineering curriculum
+- Encourage aerospace career opportunities
+- Solicit industry partnership with OSU AIAA
+
+# AIAA
+
+*"AIAA's mission is to address the professional needs and interests of the past,
+current, and future aerospace workforce and to advance the state of aerospace
+science, engineering, technology, operations, and policy to benefit our global
+society."*
+
+- American Institute of Aeronautics and Astronautics
+- The World's largest technical society dedicated to the global aerospace
+  profession
+- 35,000+ Individual members and 90+ Corporate members
