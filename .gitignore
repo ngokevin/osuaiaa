@@ -3,3 +3,4 @@
 *.swo
 .sass-cache
 output
+/media/img/gallery

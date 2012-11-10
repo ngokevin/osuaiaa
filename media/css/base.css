@@ -42,9 +42,9 @@ ul li, ol li {
     text-align: left; }
 
 hr {
-  -moz-box-shadow: 2px 2px 4px #5a5a5a;
-  -webkit-box-shadow: 2px 2px 4px #5a5a5a;
-  box-shadow: 2px 2px 4px #5a5a5a;
+  -moz-box-shadow: 2px 2px 4px #8c8c8c;
+  -webkit-box-shadow: 2px 2px 4px #8c8c8c;
+  box-shadow: 2px 2px 4px #8c8c8c;
   color: #0a0a0a; }
 
 .header {
@@ -110,7 +110,7 @@ hr {
     border-radius: 5px; }
     .navigation a:hover {
       text-decoration: none;
-      color: #aaaaaa; }
+      color: #ebebeb; }
     .navigation a.current_nav {
       color: #ebebeb; }
 
@@ -142,7 +142,7 @@ ul.subpage-list {
   padding: 0;
   line-height: 1.2em;
   margin-bottom: 5px;
-  color: #5a5a5a; }
+  color: #8c8c8c; }
 #people img {
   float: left;
   margin-right: 10px;
