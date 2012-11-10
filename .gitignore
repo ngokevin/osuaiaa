@@ -1,5 +1,5 @@
 *.swp
 *.pyc
 *.swo
-sass-cache
+.sass-cache
 output

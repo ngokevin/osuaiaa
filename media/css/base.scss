@@ -4,7 +4,7 @@ body {
     background: url('/img/textures/low_contrast_linen.png') repeat scroll 0 0;
     background-color: rgb(250, 250, 255);
     color: $white;
-    font-family: 'Scada', sans-serif;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .container{
@@ -21,13 +21,13 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Bree Serif', serif;
+    font-family: 'Arvo', serif;
     a {
-        color: $orange;
+        color: $blue;
         font-weight: bold;
         text-decoration: none;
         &:hover {
-            color: $orange;
+            color: $blue;
             text-decoration: underline;
         }
     }
@@ -39,11 +39,11 @@ p, li {
 }
 
 a {
-    color: $orange;
+    color: $blue;
     font-weight: bold;
     text-decoration: none;
     &:hover {
-        color: $orange;
+        color: $blue;
         text-decoration: underline;
     }
 }
@@ -127,9 +127,9 @@ hr {
         line-height: 18px;
     }
     a {
-        color: $orange;
+        color: $blue;
         &:hover {
-            color: $orange;
+            color: $blue;
             text-decoration: underline;
         }
     }
@@ -168,7 +168,7 @@ ul.subpage-list {
     font-size: 1.2em;
     font-weight: bold;
     display: block;
-    color: $orange;
+    color: $blue;
 }
 
 .subpage-subtitle {
@@ -210,7 +210,7 @@ ul.subpage-list {
     padding-top: 20px;
     text-align:center;
     a {
-        color: $orange;
+        color: $blue;
     }
     p {
         font-size: 14px;

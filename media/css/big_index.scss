@@ -7,9 +7,9 @@ h3.big-index-title {
     margin-bottom: 0;
     line-height: 1.15em;
     a {
-        color: $orange;
+        color: $blue;
         &:hover {
-            color: $orange;
+            color: $blue;
             text-decoration: underline;
         }
     }
@@ -19,7 +19,9 @@ h3.big-index-title {
     margin-top: 13px;
 }
 
-#home .big-index img { margin: 20px 20px 20px 0; }
+#home .big-index img {
+    margin: 20px 20px 20px 0;
+}
 .big-index {
     img {
         float: left;

@@ -2,7 +2,7 @@ body {
   background: url("/img/textures/low_contrast_linen.png") repeat scroll 0 0;
   background-color: #fafaff;
   color: #ebebeb;
-  font-family: 'Scada', sans-serif; }
+  font-family: 'PT Sans', sans-serif; }
 
 .container {
   width: 940px;
@@ -15,13 +15,13 @@ body {
     clear: both; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Bree Serif', serif; }
+  font-family: 'Arvo', serif; }
   h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-    color: #e2b341;
+    color: #57b28f;
     font-weight: bold;
     text-decoration: none; }
     h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
-      color: #e2b341;
+      color: #57b28f;
       text-decoration: underline; }
 
 p, li {
@@ -29,11 +29,11 @@ p, li {
   line-height: 28px; }
 
 a {
-  color: #e2b341;
+  color: #57b28f;
   font-weight: bold;
   text-decoration: none; }
   a:hover {
-    color: #e2b341;
+    color: #57b28f;
     text-decoration: underline; }
 
 ul li, ol li {
@@ -92,9 +92,9 @@ hr {
   .list h3, .list h4 {
     line-height: 18px; }
   .list a {
-    color: #e2b341; }
+    color: #57b28f; }
     .list a:hover {
-      color: #e2b341;
+      color: #57b28f;
       text-decoration: underline; }
 
 .navigation {
@@ -103,14 +103,14 @@ hr {
   .navigation a {
     padding: 15px;
     margin-left: 5px;
-    color: #b4b4b4;
+    color: #aaaaaa;
     font-weight: bold;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px; }
     .navigation a:hover {
       text-decoration: none;
-      color: #b4b4b4; }
+      color: #aaaaaa; }
     .navigation a.current_nav {
       color: #ebebeb; }
 
@@ -124,7 +124,7 @@ ul.subpage-list {
   font-size: 1.2em;
   font-weight: bold;
   display: block;
-  color: #e2b341; }
+  color: #57b28f; }
 
 .subpage-subtitle {
   display: block;
@@ -158,7 +158,7 @@ ul.subpage-list {
   padding-top: 20px;
   text-align: center; }
   .footer a {
-    color: #e2b341; }
+    color: #57b28f; }
   .footer p {
     font-size: 14px;
     line-height: 13px; }

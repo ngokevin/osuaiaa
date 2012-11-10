@@ -21,7 +21,9 @@
 {% endblock %}
 
 {% block content %}
-  <h2 style="display:inline;">{{ page.title }}</h2>
+  {% if not page.navrank %}
+    <h2 style="display:inline;">{{ page.title }}</h2>
+  {% endif %}
 
   <div class="paging">
     {% if page.pagination %}
