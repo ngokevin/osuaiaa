@@ -7,8 +7,6 @@
     <link rel="stylesheet" type="text/css" href="/css/sticky_footer.css"/>
     <link rel="stylesheet" type="text/css" href="/css/base.css"/>
     <link rel="stylesheet" type="text/css" href="/css/big_index.css"/>
-    <link href='http://fonts.googleapis.com/css?family=Scada:400,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Jacques+Francois' rel='stylesheet' type='text/css'>
 
     <script type="text/javascript" src="/js/lib/jquery-1.6.4.min.js"></script>
     <script type="text/javascript" src="/js/lib/jquery-ui-1.8.16.custom.min.js"></script>
@@ -20,11 +18,9 @@
     <div class="wrap">
 
       <div class="container">
+
         <div class="header">
-          <div class="container">
-            <div class="site-header">
-                <img src="/img/logo2.png">
-            </div>
+          <img src="/img/logo2.png">
         </div>
 
         <div class="container">
@@ -39,36 +35,37 @@
             {% endfor %}
           </div>
         </div>
-      </div>
 
-      <hr style="padding-top:10px;"/>
+        <hr>
 
-      <div class="heading-group">
-        {% block title %}
-        {% endblock %}
-      </div>
-
-      <div class="main">
-        <div class="base-image">
-          {% if page.image %}
-            <div class="page_pic {{ page.image.where }}" style="
-              {% if page.image.width %}max-width: {{page.image.width}};{% endif %}
-              {% if page.image.height %}max-height: {{page.image.height}};{% endif %}">
-              <img src="{{ page.image.url }}" />
-                {% if page.image.caption %}
-                  <span>{{ page.image.caption }}</span>
-                {% endif %}
-              </div>
-            {% endif %}
+        <div class="heading-group">
+          {% block title %}
+          {% endblock %}
         </div>
-        {% block content %}
-        {% endblock %}
+
+        <div class="main">
+          <div class="base-image">
+            {% if page.image %}
+              <div class="page_pic {{ page.image.where }}" style="
+                {% if page.image.width %}max-width: {{page.image.width}};{% endif %}
+                {% if page.image.height %}max-height: {{page.image.height}};{% endif %}">
+                <img src="{{ page.image.url }}" />
+                  {% if page.image.caption %}
+                    <span>{{ page.image.caption }}</span>
+                  {% endif %}
+                </div>
+              {% endif %}
+          </div>
+          {% block content %}
+          {% endblock %}
+        </div>
+
       </div>
     </div>
 
     <div class="footer">
       <span>
-       <p>A wild LUG appears!</p>
+       <p>OSU AIAA</p>
        <p>Powered by <a href="https://github.com/mythmon/wok"><b>wok</b></a></p>
       </span>
     </div>

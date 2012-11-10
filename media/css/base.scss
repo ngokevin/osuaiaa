@@ -1,13 +1,23 @@
 @import "globals.scss";
+
 body {
+    background: url('/img/low_contrast_linen.png') repeat scroll 0 0;
     background-color: rgb(250, 250, 255);
-    color: $gray;
+    color: $white;
     font-family: 'Scada', sans-serif;
 }
 
-.container {
-    width: 960px;
+.container{
+    width: 940px;
     margin: 0 auto;
+    zoom:1;
+    &:before, &:after {
+        display: table;
+        content: "";
+    }
+    &:after {
+        clear: both;
+    }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -67,33 +77,6 @@ ul, ol {
             float: left;
         }
     }
-    pre {
-        /*
-         * This makes the code blocks not run under floated elements, though only.
-         * In chrome. Is there a cross browser solution?
-         */
-        clear: both;
-        display: block;
-        display: -webkit-box;
-    }
-    h1 {
-        font-size: 2.0em;
-    }
-    h2 {
-        font-size: 1.6em;
-    }
-    h3 {
-        font-size: 1.3em;
-    }
-    h4 {
-        font-size: 1.0em;
-    }
-    h5 {
-        font-size: 1.0em;
-    }
-    h6 {
-        font-size: 0.8em;
-    }
     .page_pic {
         img {
             display: block;
@@ -124,12 +107,6 @@ ul, ol {
     }
 }
 
-hr.padded {
-    padding-top: 20px;
-    margin-bottom: 15px;
-    clear: both;
-}
-
 .base-image img {
     margin-bottom: 5px;
     max-height: 480px;
@@ -149,31 +126,8 @@ hr.padded {
     }
 }
 
-.header {
-    h2 {
-        color: $dark-blue;
-    }
-    a {
-        text-decoration: none;
-        color: $dark-blue;
-        &:hover {
-            text-decoration: none;
-            color: $dark-blue;
-        }
-    }
-}
-
-.site-header, .logo {
-    margin-top: 13px;
-}
-.logo {
-    position: relative;
-    right: 4em;
-}
-
 .navigation {
-    float: right;
-    margin-top: 35px;
+    margin: 20px 0;
     text-align: center;
     a {
         padding: 15px;
@@ -193,18 +147,6 @@ hr.padded {
             background-color: $white;
         }
     }
-}
-
-.heading {
-    margin-top: 10px;
-    h1, h2, h3, h4, h5, h6 {
-        margin: 0px;
-    }
-}
-.heading-group h2 {
-    color: $orange;
-    margin-top: 26px;
-    line-height: 28px;
 }
 
 ul.subpage-list {
@@ -251,53 +193,13 @@ ul.subpage-list {
     }
 }
 
-.featured-blog {
-    .featured-header {
-        margin-bottom: 13px;
-    }
-    img {
-        float: left;
-        margin: 0 35px 20px 0;
-        max-width: 960px;
-        max-height: 320px;
-    }
-}
-
-.sliding-index {
-    margin-top: 26px;
-    max-height: 1100px;
-    min-height: 1100px;
-}
-
-div.recent-blogs.columns {
-    margin-left: 0;
-    .recent-blogs-header {
-        display: inline;
-    }
-    .sliding-btn {
-        display: inline;
-        margin-left: 13px;
-        a {
-            color: $gray;
-        }
-    }
-}
-
-div.events.columns {
-    float: right;
-    ol {
-        margin-top: 26px;
-    }
-    .no-events {
-        font-style: italic;
-    }
+.no-events {
+    font-style: italic;
 }
 
 .footer {
     @include img-box-shadow();
     background-color: $white;
-    height: 100px;
-    margin-top: -100px;
     padding-top: 20px;
     text-align:center;
     a {
@@ -309,6 +211,7 @@ div.events.columns {
     }
 }
 
+/* Clearfix */
 .c:after {
     content: ".";
     display: block;
