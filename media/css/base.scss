@@ -49,8 +49,9 @@ a {
 }
 
 ul, ol {
+    list-style: square;
     li {
-    font-size: 16px;
+        font-size: 16px;
         p {
             text-align: left;
         }
@@ -63,7 +64,6 @@ hr {
 }
 
 .header {
-    margin-top: 13px;
     img {
         opacity: .65;
     }
@@ -197,6 +197,10 @@ ul.subpage-list {
         margin-right: 10px;
         width: 125px;
         height: 125px;
+    }
+    .span8 {
+        float: left;
+        width: 460px;
     }
 }
 

@@ -1,0 +1,13 @@
+title: John Doe
+tags: officer
+
+rank: 2
+person:
+    name: John Doe
+    title: Vice President
+    email: johndoe@example.com
+    image: /img/logo1.png
+
+---
+
+John Doe is the vice president.

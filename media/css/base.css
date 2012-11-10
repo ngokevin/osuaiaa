@@ -36,10 +36,12 @@ a {
     color: #57b28f;
     text-decoration: underline; }
 
-ul li, ol li {
-  font-size: 16px; }
-  ul li p, ol li p {
-    text-align: left; }
+ul, ol {
+  list-style: square; }
+  ul li, ol li {
+    font-size: 16px; }
+    ul li p, ol li p {
+      text-align: left; }
 
 hr {
   -moz-box-shadow: 2px 2px 4px #8c8c8c;
@@ -47,10 +49,8 @@ hr {
   box-shadow: 2px 2px 4px #8c8c8c;
   color: #0a0a0a; }
 
-.header {
-  margin-top: 13px; }
-  .header img {
-    opacity: .65; }
+.header img {
+  opacity: .65; }
 
 .main {
   margin-top: 13px; }
@@ -148,6 +148,9 @@ ul.subpage-list {
   margin-right: 10px;
   width: 125px;
   height: 125px; }
+#people .span8 {
+  float: left;
+  width: 460px; }
 
 .no-events {
   font-style: italic; }
