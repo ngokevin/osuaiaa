@@ -3,6 +3,7 @@ category: competitions
 
 slug: example
 datetime: 2012-12-01 20:00:00
+location: Oregon State University
 
 image:
     url: /img/logo1.png
