@@ -1,3 +1,116 @@
+#How to Maintain this Site
+
+This guide was written to help Windows users update a website running on a
+web server. Chances are you're an engineering major, so hopefully if you get
+stuck you can figure your way out with Google.
+
+No HTML or CSS knowledge is needed to maintain this site, only the ability to
+edit files on the command-line and upload pictures. I have set the webserver up
+to make this process as easy as possible. To update the site, you have to
+connect to the webserver with Putty and edit the files with nano
+
+This method involves just the TINIEST bit of working on the command-line. But
+don't worry, it's been set up to be as easy as possible. First let's connect to
+the server.
+
+- Download [Putty](http://http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe)
+- Run Putty and type *hostname* into the **Host Name** textbox and click **Open**.
+- Type in the password and press Enter.
+
+##Basic Commands
+
+Below are commands I have set up for you to make it easy. When doing the edit
+and new commands, it'll drop you into a text editor. I'll explain how to use
+the text editor, *nano*, below.
+
+- push: deploys the website and backs up your changes
+- editabout: edit the about page
+- edithome: edit the home page
+- newevent: add an event
+- newproject: add a project
+- newalbum: add an album
+- editpresident: edits president
+- editvicepresident: ...
+- editprojectcoordinator: ...
+- edittreasurer: ...
+- editsecretary: ...
+- editfacultyadvisor: ...
+- editcofacultyadvisor: ...
+
+Below are some basic Linux commands you might want to know.
+
+- ls: list files and folders in the current folder
+- cd *folder*: go to a folder
+- cp *file* *copiedfile*: copy (and paste) file and call it copiedfile
+- mv *oldfile* *newfile*: rename oldfile to newfile or move oldfile to a folder
+  called newfile
+- rm *file*: remove a file
+- rm -rf *folder*: remove a folder
+- mk: remove a folder
+
+##Nano, the Text Editor
+
+Nano is a text editor like Notepad, but in a command-line.
+
+- Use the arrow keys to move around and type to insert stuff.
+
+- Press Ctrl-O and Enter to save a file.
+
+- Press Ctrl-X to exit a file.
+
+##Where the Stuff You Need to Edit Are
+
+In the *osuaiaa* folder, the only folder you should worry about is the
+*content* folder. Below are descriptions about files and folders within the
+content folder.
+
+content
+    about.mkd - stuff in the about page
+    contact.mkd - stuff above officer info
+    events - folder containing event pages
+        20121201_example_event.mkd - an example event page
+    home.mkd - stuff in the home page
+    gallery - folder containing album descriptions
+        20121201_example_album.mkd - tells the site about an album
+    people - folder containing officer information
+        president.mkd - stuff about an officer
+    projects - folder containing project pages
+        20121201_example_project.mkd - an example project
+
+##Example: Adding a New Event
+
+Enter *newevent*. You should be greeted with an event template. At the top:
+
+- Change the *title* from "Example Event" to your event title.
+- Change the *slug*, which will be in the URL (slug "example" =>
+  osuaiaa.com/events/example).
+- Change the *preview* giving a short description of the event.
+- Change the *datetime* to when the event will be.
+- Change the *location* from "Example Building" to the building.
+- If you have an image, change the url to either an image you uploaded
+  (/img/yourimage.png) or to the link you uploaded it to (imgur.com).
+
+Below the --- lines is the body of your event. This is what will be shown in
+the meat of the page. Add your event description here.
+
+For adding a project or updating an officer's information, the process is
+mostly the same.
+
+##Example: Adding Images and Albums
+
+Let's start with how to upload images from your computer to the webserver.
+You'll probably be uploading an image for an event, or for an album in the
+gallery. We'll cover both ways.
+
+- Download [winscp](http://winscp.net/download/winscp511.zip) and run.
+- From the *file protocol* dropdown, choose *SCP*.
+- Enter osuaiaa.com as the **Host name**, osuaiaa as the **User name** and the
+  password. Click *Login*.
+- On the right side, we want to be putting images in the **osuaiaa/img**
+  folder. If you're putting an image into album, put it in the
+  **osuaiaa/img/gallery/your_album_name/** folder.
+- Drag-and-drop to upload.
+
 #Wok
 
 This site runs on [wok](http://wok.mytmhon.com). Wok has some
@@ -8,42 +121,3 @@ spits out the generated webpages. Since static webpage generators were meant to
 be used by tech-saavy users, there is no web interface to add content to the
 site.
 
-#How to Maintain this Site
-
-No HTML or CSS knowledge is needed to maintain this site, only the ability to
-edit files and upload pictures. I have set the webserver up to make this
-process as easy as possible. Two of the easier ways to update this site from
-Windows without any command-line knowledge are to either:
-
-- Connect to the webserver with Putty and edit the files with nano
-- Create a GitHub account, install TortoiseGit, and edit the files with a
-  program of your liking (Notepad, Office).
-
-## The Putty Way
-
-This method involves just the TINIEST bit of working on the command-line. But
-don't worry, it's been set up to be as easy as possible.
-
-- Download [Putty](http://http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe)
-- Run Putty and type *hostname* into the **Host Name** textbox and click **Open**.
-- Type in the password and press Enter.
-
-## The TortoiseGit Way
-
-This method allows us to make changes without having to ever use the
-command-line or having to connect to the webserver directly. The webserver has
-been set up to automatically pull in and deploy changes you make with Git.
-
-- Install [Git for Windows][msysgit]. This may take some time.
-- Download and install [32-bit TortoiseGit][32btg] or
-  [64-bit TortoiseGit][64btg].
-- Make a folder called OSUAIAA.
-- Right-click, go to **TortoiseGit** -> Settings.
-- On the **Git.exe Path**, put in C:\mysysgit\libexec\git-core or wherever it
-  was installed. Click **Apply**.
-- Right-click inside the folder again and click **Git Clone**
-
-
-[msysgit]: http://code.google.com/p/msysgit/downloads/detail?name=msysGit-netinstall-1.8.0-preview20121022.exe&can=2&q=net+installer
-[32btg]: http://code.google.com/p/tortoisegit/downloads/detail?name=TortoiseGit-1.7.14.0-64bit.msi&can=2&q=
-[64btg]: http://code.google.com/p/tortoisegit/downloads/detail?name=TortoiseGit-1.7.14.0-64bit.msi&can=2&q=
