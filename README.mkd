@@ -121,6 +121,26 @@ gallery. We'll cover both ways.
   **osuaiaa/img/gallery/your_album_name/** folder.
 - Drag-and-drop to upload.
 
+If you're uploading images for an event or project page, put it in the
+*osuaiaa/img* folder and then you can reference from within the files within
+*content* folders as */img/your_image_name.jpg*
+
+# Hosting this Site in the Future
+
+Currently, this site will be running on an Amazon EC2 instance from Amazon AWS.
+If somehow you're from the future, and no one's hosting this site, and you're
+figuring out how to set up an Amazon EC2 instance to run this site, here are
+some hints without me writing a gigantic guide.
+
+- In Amazon AWS console Security Groups, add port 80 to allowed inbound ports.
+- From the command line, install python-pip (sudo apt-get) and sudo pip install
+  wok.
+- *git clone git@github.com/ngokevin/osuaiaa* to fetch project folder.
+- In http://github.com/ngokevin/puppet-ngokevin is an Apache2 configuration
+  file in the files directory, modify and use that with Apache2 running on the
+  webserver.
+- Join #osu-lug on irc.freenode.net on irc for help.
+
 #Wok
 
 This site runs on [wok](http://wok.mytmhon.com). Wok has some
