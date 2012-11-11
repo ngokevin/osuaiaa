@@ -96,7 +96,19 @@ the meat of the page. Add your event description here.
 For adding a project or updating an officer's information, the process is
 mostly the same.
 
-##Example: Adding Images and Albums
+##Creating a New Album
+
+**IMPORTANT:** the *slug* field at the top of the album file must match the name of
+the folder you create with *mkdir* below.
+
+- Enter in *newalbum* to the command-line.
+- Fill out information about the album at the top.
+- Change *slug* to your\_album\_name (no spaces)
+- Enter in *mkdir ~/osuaiaa/img/gallery/your\_album\_name* (no spaces)
+- Follow the steps below to upload images to the album.
+- Push the site.
+
+##Uploading Images to the Site and to an Album
 
 Let's start with how to upload images from your computer to the webserver.
 You'll probably be uploading an image for an event, or for an album in the
