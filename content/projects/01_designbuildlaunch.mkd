@@ -1,0 +1,26 @@
+title: "Design / Build / Launch"
+category: projects
+
+slug: dbl
+datetime: 2012-12-02 20:00:00
+sponsor: Oregon State University
+
+image:
+    url: /img/logo1.png
+    where: top
+
+---
+
+This year OSU is holding an internal competition where multiple teams of 3 AIAA
+members are building rockets. The rockets will be used as a platform for NAR
+Level 1 high-powered rocketry certification. The goal is to get as close as
+possible, but not surpass 5000 feet. Flight data must be collected, and all
+post-processing results must be presented in a technical report to our AIAA
+advisors who are judging this competition. GLCs
+
+The goals of this competition are as follows:
+
+- Collaborate with Oregon Rocketry Club
+- Design and build high powered rockets
+- Acquire FAA Altitude Ceiling Waivers
+- Develop designs for future student rocketry competitions

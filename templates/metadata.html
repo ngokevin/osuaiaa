@@ -4,6 +4,9 @@
             {{ author.name }}{% if not loop.last %}, {% endif %}
         {% endfor %} |
     {% endif %}
+    {% if page.sponsor %}
+        {{ page.sponsor }} |
+    {% endif %}
     {% if page.location %}
         {{ page.location }} |
     {% endif %}

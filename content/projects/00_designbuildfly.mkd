@@ -1,0 +1,27 @@
+title: "Design / Build / Fly "
+category: projects
+
+slug: dbf
+datetime: 2013-04-19 20:00:00
+sponsor: Cessna Aircraft Company and Raytheon Missile Systems
+
+image:
+    url: /img/logo1.png
+    where: top
+
+---
+
+This year OSU AIAA is competing in the annual Cessna/Raytheon DBF student
+competition. In this competition student teams will design, fabricate, and
+demonstrate the flight capabilities of an unmanned, electric powered, radio
+controlled aircraft which can best meet the specified mission profile. The goal
+is a balanced design possessing good demonstrated flight handling qualities and
+practical and affordable manufacturing requirements while providing a high
+vehicle performance.
+
+Here are the [contest rules][contest_rules].
+
+To get involved in our DBF team, contact [Victor Dang][contact_email].
+
+[contest_rules]: http://www.aiaadbf.org/
+[contact_email]: mailto:dangvi@onid.orst.edu

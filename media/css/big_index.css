@@ -27,7 +27,7 @@ h3.big-index-title {
 .big-index-post {
   margin-top: 13px;
   text-align: justify; }
-  .big-index-post h1, .big-index-post h2, .big-index-post h3, .big-index-post img, .big-index-post li {
+  .big-index-post h1, .big-index-post h2, .big-index-post h3, .big-index-post img {
     display: none; }
 
 .paging {
