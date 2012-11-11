@@ -1,0 +1,13 @@
+title: John Doe
+tags: advisor
+
+rank: 1
+person:
+    name: John Doe
+    title: Faculty Advisor
+    email: johndoe@example.com
+    image: /img/logo1.png
+
+---
+
+John Doe is the faculty advisor.

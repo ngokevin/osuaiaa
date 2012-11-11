@@ -3,7 +3,6 @@
 h3.big-index-title {
     display: block;
     font-size: 1.3em;
-    font-weight: bold;
     margin-bottom: 0;
     line-height: 1.15em;
     a {
@@ -19,9 +18,6 @@ h3.big-index-title {
     margin-top: 13px;
 }
 
-#home .big-index img {
-    margin: 20px 20px 20px 0;
-}
 .big-index {
     img {
         float: left;
@@ -53,5 +49,4 @@ h3.big-index-title {
 
 .metadata {
     color: $light-gray;
-    font-weight: bold;
 }

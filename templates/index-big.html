@@ -30,7 +30,9 @@
       {% if page.pagination.prev_page %}
         <a href="{{ page.pagination.prev_page.url }}">Previous Page</a> |
       {% endif %}
-      Page {{ page.pagination.cur_page }} of {{ page.pagination.num_pages }}
+      {% if page.pagination.num_pages > 1 %}
+        Page {{ page.pagination.cur_page }} of {{ page.pagination.num_pages }}
+      {% endif %}
       {% if page.pagination.next_page %}
         | <a href="{{ page.pagination.next_page.url }}">Next Page</a>
       {% endif %}
@@ -57,7 +59,11 @@
             {% if subpage.image %}
               <img style="float:left; display:inline" src="{{subpage.image.url}}"/>
             {% endif %}
-            {{subpage.content|truncate(length=char_limit, end="<a href="+subpage.url+">...more</a>")}}
+            {% if subpage.preview %}
+                {{ subpage.preview }}
+            {% else %}
+                {{subpage.content|truncate(length=char_limit, end="<a href="+subpage.url+">...more</a>")}}
+            {% endif %}
             </code>
             </pre>
           </span>

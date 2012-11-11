@@ -7,9 +7,11 @@ pagination:
     limit: 3
     post_limit: 9
 
----
+header: Welcome to the OSU AIAA!
 
-#Welcome to the OSU AIAA Website!
+homeimage: /img/home.png
+
+---
 
 The Oregon State University branch of AIAA (American Institute of Aeronautics
 and Astronautics) is a new student organization. The goal of OSU AIAA is to
@@ -27,23 +29,37 @@ through which companies can connect with the university by bringing in guest
 speakers from the professional industry and encouraging student tours of their
 facilities.
 
-##Schedule
+<div class="col5">
+
+##Schedule <span><i class="icon-calendar"></i></span>
 
 Member's meetings in Kearney 112 at 6:00 on the 2nd Wednesday of every month.
-Design / Build / Fly Team meetings in Rogers 304 at 3:00 every Friday.
-Design / Build / Launch Team meetings TBD
 
-##Mailing List
+**Design / Build / Fly Team** meetings in Rogers 304 at 3:00 every Friday.
 
-OSU AIAA has a mailing list! Subscribe to the mailing list by following the
-link below.
-https://secure.engr.oregonstate.edu/mailman/listinfo/osuaiaa_members
+**Design / Build / Launch Team** meetings TBD
 
-##How to Join
+</div>
 
-Becoming a member of AIAA is easy. Simply follow the link to the AIAA website
+<div class="col5">
+
+##Mailing List <span><i class="icon-envelope"></i></span>
+
+OSU AIAA has a mailing list! Subscribe to the [mailing list](mailing-list).
+
+</div>
+
+<div class="col5">
+
+##How to Join <span><i class="icon-user"></i></span>
+
+Becoming a member of AIAA is easy. Simply go to the [AIAA website](aiaa)
 and sign up to become an official student AIAA member. This costs 20 dollars
 but being a part of a professional aerospace engineering society is well worth
 it. Once you have completed that, sign up for our mailing list so you know
 about upcoming events such as DBF meetings, guest speakers, and company tours.
-https://www.aiaa.org/SecondaryTwoColumn.aspx?id=255
+
+</div>
+
+[mailing-list]: https://secure.engr.oregonstate.edu/mailman/listinfo/osuaiaa_members
+[aiaa]: https://www.aiaa.org/SecondaryTwoColumn.aspx?id=255

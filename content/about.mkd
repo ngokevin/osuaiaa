@@ -5,9 +5,8 @@ tags: navigation
 navrank: 1
 
 image:
-    url: /img/logo1.png
+    url: /img/about.png
     where: right
-    caption: 'OSU AIAA'
 
 ---
 

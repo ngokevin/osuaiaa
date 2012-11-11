@@ -3,7 +3,15 @@
 {% block content %}
     {{ super() }}
 
-    <h2>Officers</h2>
-    {% set people_tag = "officer" %}
-    {% include "people.html" with context %}
+    <div class="c">
+        <h2>Officers</h2>
+        {% set people_tag = "officer" %}
+        {% include "people.html" with context %}
+    </div>
+
+    <div class="c">
+        <h2>Advisors</h2>
+        {% set people_tag = "advisor" %}
+        {% include "people.html" with context %}
+    </div>
 {% endblock %}

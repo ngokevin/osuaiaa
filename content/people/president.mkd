@@ -5,9 +5,8 @@ rank: 1
 person:
     name: John Doe
     title: President
-    site: http://google.com
-    irc: johndoe
-    image: /img/logo1.jpg
+    email: johndoe@example.com
+    image: /img/logo1.png
 
 ---
 

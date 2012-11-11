@@ -1,3 +1,16 @@
+/* Choose a grid width, the number of columns and the margin between columns.
+ * The result of the following equation has to be an integer, not a fraction:
+ * (width - (columns - 1) * col_margin) / columns = N */
+/* total width of page */
+/* number of columns */
+/* margin between columns */
+/* math magic */
+/* create row div */
+/* create a column div */
+/* make an element span n columns */
+/* the last column in a row needs this */
+/* prepend n blank columns */
+/* append n blank columns */
 body {
   background: url("/img/textures/low_contrast_linen.png") repeat scroll 0 0;
   background-color: #fafaff;
@@ -131,26 +144,40 @@ ul.subpage-list {
   font-size: 1.0em;
   display: block; }
 
-#people h1 {
-  font-size: 1.4em;
-  margin: 0;
-  padding: 0;
-  line-height: 1.2em; }
-#people h2 {
-  font-size: 0.9em;
-  margin: 0;
-  padding: 0;
-  line-height: 1.2em;
-  margin-bottom: 5px;
-  color: #8c8c8c; }
-#people img {
+#home .col5 {
   float: left;
-  margin-right: 10px;
-  width: 125px;
-  height: 125px; }
-#people .span8 {
+  width: 293.75px;
+  margin-right: 0;
+  margin-right: 19px; }
+  #home .col5 h1 {
+    display: inline; }
+  #home .col5 span {
+    font-size: 24px;
+    left: 6px;
+    position: relative; }
+
+.person {
   float: left;
-  width: 460px; }
+  width: 470px;
+  margin-right: 0;
+  margin-bottom: 26px; }
+  .person h1 {
+    font-size: 1.4em;
+    margin: 0;
+    padding: 0;
+    line-height: 1.2em; }
+  .person h2 {
+    font-size: 0.9em;
+    margin: 0;
+    padding: 0;
+    line-height: 1.2em;
+    margin-bottom: 5px;
+    color: #8c8c8c; }
+  .person img {
+    float: left;
+    margin-right: 10px;
+    width: 125px;
+    height: 125px; }
 
 .no-events {
   font-style: italic; }

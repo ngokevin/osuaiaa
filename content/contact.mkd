@@ -6,4 +6,4 @@ navrank: 5
 
 ---
 
-This is the contact page.
+Feel free to contact us with any questions you have!

@@ -2,36 +2,8 @@
 
 {% block content %}
   <div class="container" id="home">
+    <h1>Welcome to the OSU AIAA Website!</h1>
+    <img src="{{ page.homeimage }}" style="width: 100%">
     {{ page.content }}
-
-    <!--Upcoming Events-->
-    <div class="events">
-      <h3>Upcoming Events</h3>
-      <ol>
-       {% for event in site.categories['events'] | sort(attribute='datetime') if event.datetime > site.datetime %}
-         <li class="list">
-           <h3>
-             <a href="{{ event.url }}">{{ event.title }}</a>
-           </h3>
-           <h4>
-             {% if event.location %}
-               {{ event.location }} -
-             {% endif %}
-             {{ event.date.strftime('%A %B %d, %Y') }}
-           </h4>
-           {{ event.preview }}
-         </li>
-         {% if not loop.last %}
-           <hr>
-         {% endif %}
-       {% endfor %}
-      </ol>
-       {% for event in site.categories['events'] | sort(attribute='datetime', reverse=True) %}
-         {% if loop.first and event.datetime < site.datetime %}
-           <p class="no-events">Check back soon for future events!</p>
-         {% endif %}
-       {% endfor %}
-    </div>
-    <!--End Upcoming Events-->
   </div>
 {% endblock %}

@@ -1,4 +1,5 @@
 @import "globals.scss";
+@import "grid.scss";
 
 body {
     background: url('/img/textures/low_contrast_linen.png') repeat scroll 0 0;
@@ -177,7 +178,24 @@ ul.subpage-list {
     display: block;
 }
 
-#people {
+#home {
+    .col5 {
+        @include col(5);
+        margin-right: 19px;
+        h1 {
+            display: inline;
+        }
+        span {
+            font-size: 24px;
+            left: 6px;
+            position: relative;
+        }
+    }
+}
+
+.person {
+    @include col(8);
+    margin-bottom: 26px;
     h1 {
         font-size: 1.4em;
         margin: 0;
@@ -197,10 +215,6 @@ ul.subpage-list {
         margin-right: 10px;
         width: 125px;
         height: 125px;
-    }
-    .span8 {
-        float: left;
-        width: 460px;
     }
 }
 
