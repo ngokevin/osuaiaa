@@ -53,9 +53,7 @@ Below are some basic Linux commands you might want to know.
 Nano is a text editor like Notepad, but in a command-line.
 
 - Use the arrow keys to move around and type to insert stuff.
-
 - Press Ctrl-O and Enter to save a file.
-
 - Press Ctrl-X to exit a file.
 
 ##Where the Stuff You Need to Edit Are
@@ -65,17 +63,17 @@ In the *osuaiaa* folder, the only folder you should worry about is the
 content folder.
 
 content
-    about.mkd - stuff in the about page
-    contact.mkd - stuff above officer info
-    events - folder containing event pages
-        20121201_example_event.mkd - an example event page
-    home.mkd - stuff in the home page
-    gallery - folder containing album descriptions
-        20121201_example_album.mkd - tells the site about an album
-    people - folder containing officer information
-        president.mkd - stuff about an officer
-    projects - folder containing project pages
-        20121201_example_project.mkd - an example project
+....about.mkd - stuff in the about page
+....contact.mkd - stuff above officer info
+....events - folder containing event pages
+........20121201_example_event.mkd - an example event page
+....home.mkd - stuff in the home page
+....gallery - folder containing album descriptions
+........20121201_example_album.mkd - tells the site about an album
+....people - folder containing officer information
+........president.mkd - stuff about an officer
+....projects - folder containing project pages
+........20121201_example_project.mkd - an example project
 
 ##Example: Adding a New Event
 
