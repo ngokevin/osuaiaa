@@ -9,6 +9,7 @@ location: Oregon State University
 image:
     url: /img/logo1.png
     where: top
+
 ---
 
 This is an example event!

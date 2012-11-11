@@ -1,13 +1,13 @@
-title: John Doe
+title: Brandon Thoennes
 tags: officer
 
 rank: 1
 person:
-    name: John Doe
+    name: Brandon Thoennes
     title: President
-    email: johndoe@example.com
+    email: thoenneb@onid.orst.edu
     image: /img/logo1.png
 
 ---
 
-John Doe is the president.
+Brandon Thoennes is the president.

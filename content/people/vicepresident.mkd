@@ -1,13 +1,13 @@
-title: John Doe
+title: Michael Roos
 tags: officer
 
 rank: 2
 person:
-    name: John Doe
+    name: Michael Roos
     title: Vice President
-    email: johndoe@example.com
+    email: roosmi@onid.orst.edu
     image: /img/logo1.png
 
 ---
 
-John Doe is the vice president.
+Michael Roos is the vice president.

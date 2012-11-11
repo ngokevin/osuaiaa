@@ -1,13 +1,13 @@
-title: John Doe
+title: Elle Durkee
 tags: officer
 
 rank: 4
 person:
-    name: John Doe
+    name: Elle Durkee
     title: Treasurer
-    email: johndoe@example.com
+    email: durkee@onid.orst.edu
     image: /img/logo1.png
 
 ---
 
-John Doe is the treasurer.
+Elle Durkee is the treasurer.

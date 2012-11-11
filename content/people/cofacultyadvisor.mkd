@@ -1,13 +1,13 @@
-title: John Doe
+title: Dr. Nancy Squires
 tags: advisor
 
 rank: 1
 person:
-    name: John Doe
+    name: Nancy Squires
     title: Faculty Advisor
-    email: johndoe@example.com
+    email: squires@engr.orst.edu
     image: /img/logo1.png
 
 ---
 
-John Doe is the faculty advisor.
+Dr. Nancy Squires is the faculty advisor.

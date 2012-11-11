@@ -1,13 +1,13 @@
-title: John Doe
+title: Dr. Roberto Albertani
 tags: advisor
 
 rank: 1
 person:
-    name: John Doe
+    name: Dr. Roberto Albertani
     title: Co-Faculty Advisor
-    email: johndoe@example.com
+    email: roberto.albertani@oregonstate.edu
     image: /img/logo1.png
 
 ---
 
-John Doe is the co-faculty advisor.
+Dr. Roberto Albertani is the co-faculty advisor.
