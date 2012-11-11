@@ -67,9 +67,35 @@
 
     <div class="footer">
       <span>
-       <p>OSU AIAA</p>
-       <p>Powered by <a href="https://github.com/mythmon/wok"><b>wok</b></a></p>
-      </span>
+        {% set nextevent = site.categories['events'] | sort(attribute='datetime') | first %}
+        {% if nextevent.datetime > site.datetime %}
+          <p>
+            <b>Next Event:</b>
+            <a href="{{ nextevent.link }}">{{ nextevent.title }}</a> |
+            {{ nextevent.date.strftime("%A %B %d, %Y") }} |
+            {{ nextevent.location }}
+          </p>
+        {% endif %}
+
+        {% set latestproject = site.categories['projects'] | sort(attribute='datetime') | first %}
+        <p>
+          <b>Latest Project:</b>
+          <a href="{{ latestproject.link }}">{{ latestproject.title }}</a> |
+          {{ latestproject.date.strftime("%A %B %d, %Y") }}
+        </p>
+
+        {% set nextcomp = site.categories['competitions'] | sort(attribute='datetime') | first %}
+        {% if nextcomp.datetime > site.datetime %}
+          <p>
+            <b>Next Competition:</b>
+            <a href="{{ nextcomp.link }}">{{ nextcomp.title }}</a> |
+            {{ nextcomp.date.strftime("%A %B %d, %Y") }} |
+            {{ nextcomp.location }}
+          </p>
+        {% endif %}
+
+        <p>Site powered by <a href="https://github.com/mythmon/wok"><b>wok</b></a></p>
+       </span>
     </div>
 
   </body>

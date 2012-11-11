@@ -43,11 +43,7 @@
   <div class="big-index">
     {% for subpage in pagination.page_items %}
 
-      <div class="big-index-item">
-        {% if not loop.first %}
-          <hr/>
-        {% endif %}
-
+      <div class="big-index-item container">
         <div class="big-index-heading">
           <h3 class="big-index-title"><a href="{{subpage.url}}">{{subpage.title}}</a></h3>
           {% set page = subpage %}
@@ -71,6 +67,7 @@
 
       </div>
     {% endfor %}
+
     </div>
   </div>
 {% endblock %}

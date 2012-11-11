@@ -1,0 +1,15 @@
+title: Example Event 2
+category: events
+
+slug: example2
+datetime: 2012-12-02 00:00:00
+
+preview: This is an example event 2.
+location: Oregon State University
+image:
+    url: /img/logo1.png
+    where: top
+
+---
+
+This is an example event!

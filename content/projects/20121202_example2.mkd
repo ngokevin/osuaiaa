@@ -1,0 +1,13 @@
+title: "Example Project 2"
+category: projects
+
+slug: example2
+datetime: 2012-12-02 20:00:00
+
+image:
+    url: /img/logo1.png
+    where: left
+
+---
+
+This is an example project.
