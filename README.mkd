@@ -1,0 +1,49 @@
+#Wok
+
+This site runs on [wok](http://wok.mytmhon.com). Wok has some
+[documentation](http://wok.mythmon.com/docs/urls) to answer any questions this
+guide does not cover. Wok is a static webpage generator. We put all of our
+stuff into files (like .txt files) and then the program reads these files, and
+spits out the generated webpages. Since static webpage generators were meant to
+be used by tech-saavy users, there is no web interface to add content to the
+site.
+
+#How to Maintain this Site
+
+No HTML or CSS knowledge is needed to maintain this site, only the ability to
+edit files and upload pictures. I have set the webserver up to make this
+process as easy as possible. Two of the easier ways to update this site from
+Windows without any command-line knowledge are to either:
+
+- Connect to the webserver with Putty and edit the files with nano
+- Create a GitHub account, install TortoiseGit, and edit the files with a
+  program of your liking (Notepad, Office).
+
+## The Putty Way
+
+This method involves just the TINIEST bit of working on the command-line. But
+don't worry, it's been set up to be as easy as possible.
+
+- Download [Putty](http://http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe)
+- Run Putty and type *hostname* into the **Host Name** textbox and click **Open**.
+- Type in the password and press Enter.
+
+## The TortoiseGit Way
+
+This method allows us to make changes without having to ever use the
+command-line or having to connect to the webserver directly. The webserver has
+been set up to automatically pull in and deploy changes you make with Git.
+
+- Install [Git for Windows][msysgit]. This may take some time.
+- Download and install [32-bit TortoiseGit][32btg] or
+  [64-bit TortoiseGit][64btg].
+- Make a folder called OSUAIAA.
+- Right-click, go to **TortoiseGit** -> Settings.
+- On the **Git.exe Path**, put in C:\mysysgit\libexec\git-core or wherever it
+  was installed. Click **Apply**.
+- Right-click inside the folder again and click **Git Clone**
+
+
+[msysgit]: http://code.google.com/p/msysgit/downloads/detail?name=msysGit-netinstall-1.8.0-preview20121022.exe&can=2&q=net+installer
+[32btg]: http://code.google.com/p/tortoisegit/downloads/detail?name=TortoiseGit-1.7.14.0-64bit.msi&can=2&q=
+[64btg]: http://code.google.com/p/tortoisegit/downloads/detail?name=TortoiseGit-1.7.14.0-64bit.msi&can=2&q=
