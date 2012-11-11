@@ -13,6 +13,8 @@ homeimage: /img/home.png
 
 ---
 
+[Here's us in the news!][barometer]
+
 The Oregon State University branch of AIAA (American Institute of Aeronautics
 and Astronautics) is a new student organization. The goal of OSU AIAA is to
 promote student interest in aerospace engineering with hands-on research and
@@ -33,33 +35,42 @@ facilities.
 
 ##Schedule <span><i class="icon-calendar"></i></span>
 
-Member's meetings in Kearney 112 at 6:00 on the 2nd Wednesday of every month.
+####Member's Meetings
 
-**Design / Build / Fly Team** meetings in Rogers 304 at 3:00 every Friday.
+Kearney 112 at 6pm on the 2nd Wednesday of every month.
 
-**Design / Build / Launch Team** meetings TBD
+####Design / Build / Fly Team
 
+Rogers 304 at 3pm every Friday.
+
+####Design / Build / Launch Team
+
+Meetings TBD
+</div>
+
+
+<div class="col5">
+
+##How to Join <span><i class="icon-user"></i></span>
+
+Becoming a member of AIAA is easy. Simply go to the [AIAA website][aiaa]
+and sign up to become an official student AIAA member. This costs 20 dollars
+but being a part of a professional aerospace engineering society is well worth
+it.
+
+Once you have completed that, sign up to our mailing list!
 </div>
 
 <div class="col5">
 
 ##Mailing List <span><i class="icon-envelope"></i></span>
 
-OSU AIAA has a mailing list! Subscribe to the [mailing list](mailing-list).
+OSU AIAA has a mailing list!
 
-</div>
-
-<div class="col5">
-
-##How to Join <span><i class="icon-user"></i></span>
-
-Becoming a member of AIAA is easy. Simply go to the [AIAA website](aiaa)
-and sign up to become an official student AIAA member. This costs 20 dollars
-but being a part of a professional aerospace engineering society is well worth
-it. Once you have completed that, sign up for our mailing list so you know
-about upcoming events such as DBF meetings, guest speakers, and company tours.
-
+Sign up to the [mailing list][mailing-list] so you know about upcoming events
+such as DBF meetings, guest speakers, and company tours.
 </div>
 
 [mailing-list]: https://secure.engr.oregonstate.edu/mailman/listinfo/osuaiaa_members
 [aiaa]: https://www.aiaa.org/SecondaryTwoColumn.aspx?id=255
+[barometer]: http://www.dailybarometer.com/news/5-4-3-2-1-liftoff-aerospace-club-1.2937738#.UJtXsoZj2rY
