@@ -1,2 +1,2 @@
-site_title: OSU American Institute of Aeronautics and Astronautics
+site_title: OSU AIAA
 url_pattern: "/{category}/{slug}/{page}/"
