@@ -66,7 +66,11 @@ hr {
 
 .header {
     img {
+        @include transition(.4s);
         opacity: .65;
+        &:hover {
+            opacity: .80;
+        }
     }
 }
 
@@ -140,6 +144,7 @@ hr {
     margin: 20px 0;
     text-align: center;
     a {
+        @include transition(.3s);
         padding: 15px;
         margin-left: 5px;
         color: $light-gray;

@@ -71,13 +71,13 @@
         {% if nextevent.datetime > site.datetime %}
           <p>
             <b>Next Event:</b>
-            <a href="{{ nextevent.link }}">{{ nextevent.title }}</a> |
+            <a href="{{ nextevent.url }}">{{ nextevent.title }}</a> |
             {{ nextevent.date.strftime("%A %B %d, %Y") }} |
             {{ nextevent.location }}
           </p>
         {% endif %}
 
-        <p>Site powered by <a href="https://github.com/mythmon/wok"><b>wok</b></a></p>
+        <p><a href="https://github.com/ngokevin/osuaiaa"><b>source code</b></a></p>
        </span>
     </div>
 
