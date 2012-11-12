@@ -1,0 +1,17 @@
+title: Resources
+slug: resources
+
+tags: navigation
+navrank: 5
+
+image:
+    url: /img/resources.png
+    where: right
+
+---
+
+Here are some resources that you aspiring aerospacers may find interesting.
+
+- [How to Build a Rocket](http://youtube.com)
+- [How to Build a Missile](http://youtube.com)
+- [How to Build a Nuke](http://youtube.com)

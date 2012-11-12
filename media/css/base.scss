@@ -24,11 +24,11 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Arvo', serif;
     a {
-        color: $blue;
+        color: $orange;
         font-weight: bold;
         text-decoration: none;
         &:hover {
-            color: $blue;
+            color: $orange;
             text-decoration: underline;
         }
     }
@@ -40,11 +40,11 @@ p, li {
 }
 
 a {
-    color: $blue;
+    color: $orange;
     font-weight: bold;
     text-decoration: none;
     &:hover {
-        color: $blue;
+        color: $orange;
         text-decoration: underline;
     }
 }
@@ -65,6 +65,7 @@ hr {
 }
 
 .header {
+    margin-top: 20px;
     img {
         @include transition(.4s);
         opacity: .65;
@@ -132,15 +133,16 @@ hr {
         line-height: 18px;
     }
     a {
-        color: $blue;
+        color: $orange;
         &:hover {
-            color: $blue;
+            color: $orange;
             text-decoration: underline;
         }
     }
 }
 
 .navigation {
+    font-family: 'Arvo', serif;
     margin: 20px 0;
     text-align: center;
     a {
@@ -174,7 +176,7 @@ ul.subpage-list {
     font-size: 1.2em;
     font-weight: bold;
     display: block;
-    color: $blue;
+    color: $orange;
 }
 
 .subpage-subtitle {

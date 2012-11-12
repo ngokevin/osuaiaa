@@ -30,11 +30,11 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Arvo', serif; }
   h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-    color: #57b28f;
+    color: #cd5926;
     font-weight: bold;
     text-decoration: none; }
     h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
-      color: #57b28f;
+      color: #cd5926;
       text-decoration: underline; }
 
 p, li {
@@ -42,11 +42,11 @@ p, li {
   line-height: 28px; }
 
 a {
-  color: #57b28f;
+  color: #cd5926;
   font-weight: bold;
   text-decoration: none; }
   a:hover {
-    color: #57b28f;
+    color: #cd5926;
     text-decoration: underline; }
 
 ul, ol {
@@ -62,14 +62,16 @@ hr {
   box-shadow: 2px 2px 4px #8c8c8c;
   color: #0a0a0a; }
 
-.header img {
-  -moz-transition: 0.4s;
-  -ms-transition: 0.4s;
-  -o-transition: 0.4s;
-  -webkit-transition: 0.4s;
-  opacity: .65; }
-  .header img:hover {
-    opacity: .80; }
+.header {
+  margin-top: 20px; }
+  .header img {
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+    -webkit-transition: 0.4s;
+    opacity: .65; }
+    .header img:hover {
+      opacity: .80; }
 
 .main {
   margin-top: 13px; }
@@ -111,12 +113,13 @@ hr {
   .list h3, .list h4 {
     line-height: 18px; }
   .list a {
-    color: #57b28f; }
+    color: #cd5926; }
     .list a:hover {
-      color: #57b28f;
+      color: #cd5926;
       text-decoration: underline; }
 
 .navigation {
+  font-family: 'Arvo', serif;
   margin: 20px 0;
   text-align: center; }
   .navigation a {
@@ -147,7 +150,7 @@ ul.subpage-list {
   font-size: 1.2em;
   font-weight: bold;
   display: block;
-  color: #57b28f; }
+  color: #cd5926; }
 
 .subpage-subtitle {
   display: block;

@@ -1,8 +1,8 @@
 #How to Maintain this Site
 
 This guide was written to help Windows users update a website running on a
-web server. Chances are you're an engineering major, so hopefully if you get
-stuck you can figure your way out with Google.
+web server. If you have any Linux users in your club, now's a good time to ask
+because they can be your go-to person.
 
 No HTML or CSS knowledge is needed to maintain this site, only the ability to
 edit files on the command-line and upload pictures. I have set the webserver up
@@ -129,16 +129,20 @@ If you're uploading images for an event or project page, put it in the
 
 Currently, this site will be running on an Amazon EC2 instance from Amazon AWS.
 If somehow you're from the future, and no one's hosting this site, and you're
-figuring out how to set up an Amazon EC2 instance to run this site, here are
-some hints without me writing a gigantic guide.
+figuring out how to set up an Amazon EC2 instance to run this site. You just
+have to set up the EC2 instance, clone my Puppet repository from Github, run my
+Puppet set up that automatically sets up the web server.
 
+- Read how to set up an Amazon EC2 instance.
 - In Amazon AWS console Security Groups, add port 80 to allowed inbound ports.
-- From the command line, install python-pip (sudo apt-get) and sudo pip install
-  wok.
-- *git clone git@github.com/ngokevin/osuaiaa* to fetch project folder.
-- In http://github.com/ngokevin/puppet-ngokevin is an Apache2 configuration
-  file in the files directory, modify and use that with Apache2 running on the
-  webserver.
+- ssh -v -i KEY-YOU-DOWNLOADED.pem ubuntu@EC2-HOSTNAME
+- sudo adduser osuaiaa
+- sudo nano /etc/ssh/sshd\_config and set PasswordAuthentication to Yes
+- sudo apt-get install git && sudo apt-get install puppet
+- ssh-keygen and add your .ssh/id\_rsa.pub to the Github account's allowed SSH keys.
+- git clone git@github.com:puppet-ngokevin
+- cd puppet-ngokevin && git checkout osuaiaa
+- sudo puppet apply -e manifests/puppet-ngokevin.pp
 - Join #osu-lug on irc.freenode.net on irc for help.
 
 #Wok

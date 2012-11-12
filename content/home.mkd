@@ -3,6 +3,9 @@ type: home
 
 url: /index{page}.html
 
+tags: navigation
+navrank: 0
+
 pagination:
     limit: 3
     post_limit: 9
@@ -13,14 +16,14 @@ homeimage: /img/home.png
 
 ---
 
-[Here's us in the news!][barometer]
-
 The Oregon State University branch of AIAA (American Institute of Aeronautics
 and Astronautics) is a new student organization. The goal of OSU AIAA is to
 promote student interest in aerospace engineering with hands-on research and
 design projects. With Oregon State University currently lacking an aerospace
 engineering program, OSU AIAA intends to fill that void by becoming the
 university's platform for students interested in aerospace engineering.
+[Here's us featured in the OSU Barometer!][barometer]
+
 
 OSU AIAA is a student branch under the American Institute of Aeronautics and
 Astronautics. The purpose of the organization is to promote research and

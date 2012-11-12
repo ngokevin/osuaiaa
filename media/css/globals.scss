@@ -4,7 +4,7 @@ $light-gray: rgb(170, 170, 170);
 $white: rgb(235, 235, 235);
 
 $blue: #57B28F;
-$orange: #954F2F;
+$orange: rgb(205, 89, 38);
 
 @mixin box-shadow($shadow) {
     -moz-box-shadow: $shadow;
