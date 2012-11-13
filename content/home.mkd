@@ -1,4 +1,4 @@
-title: Home
+title: Lorem
 type: home
 
 url: /index{page}.html
@@ -10,68 +10,68 @@ pagination:
     limit: 3
     post_limit: 9
 
-header: Welcome to the OSU AIAA!
+header: Lorem ipsum dolor sit!
 
 homeimage: /img/home.png
 
 ---
 
-The Oregon State University branch of AIAA (American Institute of Aeronautics
-and Astronautics) is a new student organization. The goal of OSU AIAA is to
-promote student interest in aerospace engineering with hands-on research and
-design projects. With Oregon State University currently lacking an aerospace
-engineering program, OSU AIAA intends to fill that void by becoming the
-university's platform for students interested in aerospace engineering.
-[Here's us featured in the OSU Barometer!][barometer]
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed quam vel
+mi gravida elementum vehicula sit amet magna. Cras ultrices lacinia bibendum.
+Nam eget est id nunc dignissim vulputate nec tristique tortor. Suspendisse
+luctus turpis nec erat hendrerit tempor. Nam quam dolor, gravida ac interdum
+quis, pulvinar sed massa. Quisque volutpat elementum scelerisque. Sed eleifend
+iaculis faucibus. Curabitur rhoncus dolor ut nunc condimentum cursus. Morbi
+iaculis placerat tellus, [ac tincidunt tortor blandit sed][barometer].
 
-
-OSU AIAA is a student branch under the American Institute of Aeronautics and
-Astronautics. The purpose of the organization is to promote research and
-education in the design and implementation of various aerospace engineering
-disciplines. Our student organization seeks to compete with other colleges and
-universities in engineering and design competitions. OSU AIAA is also a facet
-through which companies can connect with the university by bringing in guest
-speakers from the professional industry and encouraging student tours of their
-facilities.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed quam vel
+mi gravida elementum vehicula sit amet magna. Cras ultrices lacinia bibendum.
+Nam eget est id nunc dignissim vulputate nec tristique tortor. Suspendisse
+luctus turpis nec erat hendrerit tempor. Nam quam dolor, gravida ac interdum
+quis, pulvinar sed massa. Quisque volutpat elementum scelerisque. Sed eleifend
+iaculis faucibus. Curabitur rhoncus dolor ut nunc condimentum cursus. Morbi
 
 <div class="col5">
 
-##Schedule <span><i class="icon-calendar"></i></span>
+##Vehicula <span><i class="icon-calendar"></i></span>
 
-####Member's Meetings
+####Lorem Ipsum
 
-Kearney 112 at 6pm on the 2nd Wednesday of every month.
+Nunc dignissim vulputate nec tristique tortor.
 
-####Design / Build / Fly Team
+####Dolor Sit
 
-Rogers 304 at 3pm every Friday.
+Pulvinar sed massa. Quisque volutpat elementum scelerisque.
 
-####Design / Build / Launch Team
 
-Meetings TBD
+####Amte Consectetur
+
+Mi gravida elementum vehicula sit amet magna.
+
 </div>
 
 
 <div class="col5">
 
-##How to Join <span><i class="icon-user"></i></span>
+##Gravida <span><i class="icon-user"></i></span>
 
-Becoming a member of AIAA is easy. Simply go to the [AIAA website][aiaa]
-and sign up to become an official student AIAA member. This costs 20 dollars
-but being a part of a professional aerospace engineering society is well worth
-it.
+Lorem ipsum dolor sit amet, consectetur adipiscing [elit][aiaa]. Praesent sed
+quam vel mi gravida elementum vehicula sit amet magna. Cras ultrices lacinia
+bibendum. Nam eget est id nunc dignissim vulputate nec tristique tortor.
+Suspendisse luctus turpis nec erat hendrerit tempor. Nam quam dolor, gravida ac
+interdum
 
-Once you have completed that, sign up to our mailing list!
+Suspendisse luctus turpis nec erat hendrerit tempor!
 </div>
 
 <div class="col5">
 
 ##Mailing List <span><i class="icon-envelope"></i></span>
 
-OSU AIAA has a mailing list!
+Suspendisse luctus turpis nec erat hendrerit tempor!
 
-Sign up to the [mailing list][mailing-list] so you know about upcoming events
-such as DBF meetings, guest speakers, and company tours.
+Lorem ipsum dolor sit amet, consectetur adipiscing [elit][aiaa]. Praesent sed
+quam vel mi gravida elementum vehicula sit amet magna. Cras ultrices lacinia.
 </div>
 
 [mailing-list]: https://secure.engr.oregonstate.edu/mailman/listinfo/osuaiaa_members

@@ -1,4 +1,4 @@
-title: Contact
+title: Bibendum
 type: contact
 
 tags: navigation

@@ -1,4 +1,4 @@
-title: Gallery
+title: Massa
 type: gallery
 
 slug: gallery

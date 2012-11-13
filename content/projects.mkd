@@ -1,4 +1,4 @@
-title: Projects
+title: Pulvinar
 type: index-big
 
 slug: projects
