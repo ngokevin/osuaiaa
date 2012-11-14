@@ -64,13 +64,31 @@ hr {
     color: $black;
 }
 
-.header {
-    margin-top: 20px;
+div.header {
+    display: inline-block;
+    padding-top: 20px;
+    position: relative;
+    width: 100%;
+    &:after {
+        background: url('/img/textures/solid.png') repeat scroll 0 0;
+        bottom: 0;
+        display: block;
+        clear: both;
+        content: "";
+        left: 0;
+        opacity: 0.5;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: -1;
+    }
     img {
+        display: block;
+        margin: 0 auto;
         @include transition(.4s);
-        opacity: .65;
+        opacity: .75;
         &:hover {
-            opacity: .80;
+            opacity: .9;
         }
     }
 }
@@ -149,7 +167,7 @@ hr {
         @include transition(.3s);
         padding: 15px;
         margin-left: 5px;
-        color: $light-gray;
+        color: $black;
         font-weight: bold;
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
@@ -186,6 +204,9 @@ ul.subpage-list {
 }
 
 #home {
+    img {
+        border: 2px groove white;
+    }
     .col5 {
         @include col(5);
         margin-right: 19px;
@@ -235,7 +256,7 @@ ul.subpage-list {
     padding-top: 20px;
     text-align:center;
     a {
-        color: $blue;
+        color: $orange;
     }
     p {
         font-size: 14px;
