@@ -64,7 +64,8 @@ hr {
 
 div.header {
   display: inline-block;
-  padding-top: 20px;
+  margin-top: -20px;
+  padding-top: 30px;
   position: relative;
   width: 100%; }
   div.header:after {
@@ -82,6 +83,8 @@ div.header {
   div.header img {
     display: block;
     margin: 0 auto;
+    position: relative;
+    right: 12px;
     -moz-transition: 0.4s;
     -ms-transition: 0.4s;
     -o-transition: 0.4s;
@@ -175,7 +178,8 @@ ul.subpage-list {
   display: block; }
 
 #home img {
-  border: 2px groove white; }
+  border: 2px groove white;
+  width: 936px; }
 #home .col5 {
   float: left;
   width: 293.75px;
