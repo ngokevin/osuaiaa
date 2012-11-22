@@ -18,7 +18,7 @@ body {
   font-family: 'PT Sans', sans-serif; }
 
 .container {
-  width: 940px;
+  width: 960px;
   margin: 0 auto;
   zoom: 1; }
   .container:before, .container:after {

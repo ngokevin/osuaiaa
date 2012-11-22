@@ -4,7 +4,7 @@
 
 $width: 940px; /* total width of page */
 $columns: 16; /* number of columns */
-$col_margin: 0; /* margin between columns */
+$col_margin: 20px; /* margin between columns */
 
 /* math magic */
 $col_width: ($width - ($col_margin * ($columns - 1))) / $columns;
@@ -24,6 +24,7 @@ $col_total_width: $col_width + $col_margin;
 
 /* make an element span n columns */
 @mixin span($n: 1) {
+    float: left;
     width: ($n * $col_width) + (($n - 1) * $col_margin);
     @if $n == $columns {
         margin-right: 0;

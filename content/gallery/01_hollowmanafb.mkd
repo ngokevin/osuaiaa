@@ -1,11 +1,9 @@
-title: "Example Album"
+title: Hollowman AFB
 category: gallery
 type: album
 
-slug: example
+slug: hollomanafb
 
 datetime: 2012-12-01 00:00:00
 
 ---
-
-This is an example album.

@@ -1,0 +1,11 @@
+title: Boeing Museum of Flight
+category: gallery
+type: album
+
+slug: boeing
+
+datetime: 2012-12-01 00:00:00
+
+---
+
+2012 AIAA Student Confernece

@@ -1,0 +1,9 @@
+title: White Sands Missile Range
+category: gallery
+type: album
+
+slug: whitesands
+
+datetime: 2012-12-01 00:00:00
+
+---
