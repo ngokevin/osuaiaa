@@ -4,10 +4,10 @@ tags: advisor
 rank: 1
 person:
     name: Dr. Roberto Albertani
-    title: Co-Faculty Advisor
+    title: Faculty Advisor
     email: roberto.albertani@oregonstate.edu
-    image: /img/logo1.png
+    image: /img/people/albertani.jpg
 
 ---
 
-Dr. Roberto Albertani is the co-faculty advisor.
+Dr. Roberto Albertani is the faculty advisor.

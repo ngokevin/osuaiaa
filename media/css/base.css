@@ -182,8 +182,9 @@ ul.subpage-list {
   width: 936px; }
 #home .col5 {
   float: left;
-  width: 293.75px;
-  margin-right: 0;
+  float: left;
+  width: 280px;
+  margin-right: 20px;
   margin-right: 19px; }
   #home .col5 h1 {
     display: inline; }
@@ -194,8 +195,9 @@ ul.subpage-list {
 
 .person {
   float: left;
-  width: 470px;
-  margin-right: 0;
+  float: left;
+  width: 460px;
+  margin-right: 20px;
   margin-bottom: 26px; }
   .person h1 {
     font-size: 1.4em;

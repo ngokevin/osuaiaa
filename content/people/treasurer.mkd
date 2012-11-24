@@ -6,8 +6,8 @@ person:
     name: Elle Durkee
     title: Treasurer
     email: durkee@onid.orst.edu
-    image: /img/logo1.png
+    image: /img/people/durkee.jpg
 
 ---
 
-Elle Durkee is the treasurer.
+Elle Durkee is a senior engineering physics major.

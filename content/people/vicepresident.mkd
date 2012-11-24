@@ -10,4 +10,5 @@ person:
 
 ---
 
-Michael Roos is the vice president.
+Michael Roos, one of the founders and creators of OSU AIAA, is a junior
+mechahical engineering major.

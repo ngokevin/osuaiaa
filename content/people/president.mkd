@@ -10,4 +10,5 @@ person:
 
 ---
 
-Brandon Thoennes is the president.
+Brandon Thoennes, one of the founders and creators of OSU AIAA, is a senior
+mechanical engineering major.

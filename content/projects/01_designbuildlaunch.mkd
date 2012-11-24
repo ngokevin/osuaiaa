@@ -11,12 +11,18 @@ image:
 
 ---
 
-This year OSU is holding an internal competition where multiple teams of 3 AIAA
-members are building rockets. The rockets will be used as a platform for NAR
-Level 1 high-powered rocketry certification. The goal is to get as close as
-possible, but not surpass 5000 feet. Flight data must be collected, and all
-post-processing results must be presented in a technical report to our AIAA
-advisors who are judging this competition. GLCs
+This year OSU AIAA is seeking to get members that are interested certified for
+Level 1 High-Powered Rocketry through the National Association of Rocketry.
+This will be an opportunity for students to each build their own level 1 rocket
+to be certified. For those who complete certification, OSU AIAA is also holding
+an internal competition where multiple teams of 3 AIAA members are building
+larger, more complex rockets. The competition will have its own set of rules
+and is designed for students to be able to customize their rocket (i.e.
+altimeters, accelerometers, recovery methods, payloads, etc.). Flight data must
+be collected, and all post-processing results must be presented in a technical
+report to our AIAA advisors who will be judging the competition.
+
+---
 
 The goals of this competition are as follows:
 

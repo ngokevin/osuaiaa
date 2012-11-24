@@ -1,0 +1,26 @@
+title: Garmin Facilities Tour
+category: events
+
+slug: garmin
+datetime: 2012-11-16 00:00:00
+
+location: Oregon State University
+image:
+    url: /img/logo1.png
+    where: top
+
+---
+
+OSU AIAA members recently got the change to tour Garmin AT's headquarters!
+Members got to tour the entire facility including their airplane hangar,
+engineering labs and offices, machine shop, and manufacturing area. The tour
+was very informative and a great chance to meet employees and explore what is
+going on in the world of aviation.
+
+OSU AIAA would like to thank Garmin for opening their doors to us and taking
+the time out of their day to give us a tour of their awesome company!
+
+For more information on Garmin and what their all about, check out their
+website at: http://www.garmin.com/us/products/intheair/
+
+Thanks again Garmin!

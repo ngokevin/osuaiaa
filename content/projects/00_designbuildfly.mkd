@@ -6,7 +6,7 @@ datetime: 2013-04-19 20:00:00
 sponsor: Cessna Aircraft Company and Raytheon Missile Systems
 
 image:
-    url: /img/logo1.png
+    url: /img/dbf.png
     where: top
 
 ---

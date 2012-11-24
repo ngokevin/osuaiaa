@@ -44,6 +44,9 @@ society."*
 
 Thanks to those that helped us make this all possible!
 
+- AIAA
 - Boeing
-- OSU College of Engineering
+- Garmin
+- Triggerfinger Software
 - Oregon NASA Space Grant
+- OSU College of Engineering
