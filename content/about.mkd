@@ -5,7 +5,7 @@ tags: navigation
 navrank: 1
 
 image:
-    url: /img/about.png
+    url: /aiaa/img/about.png
     where: right
 
 ---

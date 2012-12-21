@@ -6,7 +6,7 @@ person:
     name: Dr. Roberto Albertani
     title: Faculty Advisor
     email: roberto.albertani@oregonstate.edu
-    image: /img/people/albertani.jpg
+    image: /aiaa/img/people/albertani.jpg
 
 ---
 

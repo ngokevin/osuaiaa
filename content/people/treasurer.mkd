@@ -6,7 +6,7 @@ person:
     name: Elle Durkee
     title: Treasurer
     email: durkee@onid.orst.edu
-    image: /img/people/durkee.jpg
+    image: /aiaa/img/people/durkee.jpg
 
 ---
 

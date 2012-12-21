@@ -2,7 +2,7 @@ title: Gallery
 type: gallery
 
 slug: gallery
-url: /gallery/index{page}.html
+url: /aiaa/gallery/index{page}.html
 
 tags: navigation
 navrank: 4

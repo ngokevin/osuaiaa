@@ -2,7 +2,7 @@
 @import "grid.scss";
 
 body {
-    background: url('/img/textures/low_contrast_linen.png') repeat scroll 0 0;
+    background: url('../img/textures/low_contrast_linen.png') repeat scroll 0 0;
     background-color: rgb(250, 250, 255);
     color: $white;
     font-family: 'PT Sans', sans-serif;
@@ -71,7 +71,7 @@ div.header {
     position: relative;
     width: 100%;
     &:after {
-        background: url('/img/textures/solid.png') repeat scroll 0 0;
+        background: url('../img/textures/solid.png') repeat scroll 0 0;
         bottom: 0;
         display: block;
         clear: both;
@@ -255,7 +255,7 @@ ul.subpage-list {
 }
 
 .footer {
-    background: url('/img/textures/assault.png') repeat scroll 0 0;
+    background: url('../img/textures/assault.png') repeat scroll 0 0;
     background-color: $white;
     padding-top: 20px;
     text-align:center;

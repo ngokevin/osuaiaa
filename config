@@ -1,2 +1,2 @@
 site_title: OSU AIAA
-url_pattern: "/{category}/{slug}/{page}/"
+url_pattern: "/aiaa/{category}/{slug}/{page}/"

@@ -2,7 +2,7 @@ title: Projects
 type: index-big
 
 slug: projects
-url: /projects/index{page}.html
+url: /aiaa/projects/index{page}.html
 
 tags: navigation
 navrank: 3

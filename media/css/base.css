@@ -12,7 +12,7 @@
 /* prepend n blank columns */
 /* append n blank columns */
 body {
-  background: url("/img/textures/low_contrast_linen.png") repeat scroll 0 0;
+  background: url("../img/textures/low_contrast_linen.png") repeat scroll 0 0;
   background-color: #fafaff;
   color: #ebebeb;
   font-family: 'PT Sans', sans-serif; }
@@ -69,7 +69,7 @@ div.header {
   position: relative;
   width: 100%; }
   div.header:after {
-    background: url("/img/textures/solid.png") repeat scroll 0 0;
+    background: url("../img/textures/solid.png") repeat scroll 0 0;
     bottom: 0;
     display: block;
     clear: both;
@@ -221,7 +221,7 @@ ul.subpage-list {
   font-style: italic; }
 
 .footer {
-  background: url("/img/textures/assault.png") repeat scroll 0 0;
+  background: url("../img/textures/assault.png") repeat scroll 0 0;
   background-color: #ebebeb;
   padding-top: 20px;
   text-align: center; }

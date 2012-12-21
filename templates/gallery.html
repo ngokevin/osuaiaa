@@ -2,8 +2,8 @@
 
 {% block content %}
 
-  <link rel="stylesheet" type="text/css" href="/css/gallery.css" />
-  <script type="text/javascript" src="/js/utilities.js" ></script>
+  <link rel="stylesheet" type="text/css" href="/aiaa/css/gallery.css" />
+  <script type="text/javascript" src="/aiaa/js/utilities.js" ></script>
 
   {% for album in site.categories['gallery'] | sort(attribute='datetime', reverse=True) %}
     <!--Allow JavaScript to access the slugs-->
@@ -19,7 +19,7 @@
   {% endfor %}
 
   <div id="gallery">
-    <script type="text/javascript" src="/js/gallery.js" ></script>
+    <script type="text/javascript" src="/aiaa/js/gallery.js" ></script>
   </div>
 
 {% endblock %}

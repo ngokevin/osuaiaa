@@ -5,7 +5,7 @@ import simplejson
 import Image
 
 GALLERY_DIR = os.path.abspath('./media/img/gallery/') + '/'
-REL_GALLERY_DIR = '/img/gallery/'
+REL_GALLERY_DIR = '/aiaa/img/gallery/'
 FILE_TYPES = ['jpg', 'JPG', 'jpeg', 'JPEG', 'png', 'PNG']
 THUMB_PREFIX = 'THUMB_'
 

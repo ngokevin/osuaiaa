@@ -6,7 +6,7 @@ person:
     name: Brandon Thoennes
     title: President
     email: thoenneb@onid.orst.edu
-    image: /img/logo1.png
+    image: /aiaa/img/logo1.png
 
 ---
 

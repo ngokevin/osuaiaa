@@ -6,7 +6,7 @@ person:
     name: Nancy Squires
     title: Faculty Advisor
     email: squires@engr.orst.edu
-    image: /img/people/squires.jpg
+    image: /aiaa/img/people/squires.jpg
 
 ---
 
