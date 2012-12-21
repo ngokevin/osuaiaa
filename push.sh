@@ -1,10 +1,10 @@
-export PYTHONPATH=$PYTHONPATH:~/osuaiaa-stuff/python
-export PYTHONPATH=$PYTHONPATH:~/osuaiaa-stuff/python/PIL
-export PYTHONPATH=$PYTHONPATH:~/osuaiaa-stuff/python/wok
-export PYTHONPATH=$PYTHONPATH:~/osuaiaa-stuff/python/yaml
-export PYTHONPATH=$PYTHONPATH:~/osuaiaa-stuff/python/simplejson
-export PYTHONPATH=$PYTHONPATH:~/osuaiaa-stuff/python/markdown
-export PATH=$PATH:~/osuaiaa-stuff/python/wok/scripts
+export PYTHONPATH=$PYTHONPATH:~/osuaiaa/python
+export PYTHONPATH=$PYTHONPATH:~/osuaiaa/python/PIL
+export PYTHONPATH=$PYTHONPATH:~/osuaiaa/python/wok
+export PYTHONPATH=$PYTHONPATH:~/osuaiaa/python/yaml
+export PYTHONPATH=$PYTHONPATH:~/osuaiaa/python/simplejson
+export PYTHONPATH=$PYTHONPATH:~/osuaiaa/python/markdown
+export PATH=$PATH:~/osuaiaa/python/wok/scripts
 cd osuaiaa
 wok
 cd output

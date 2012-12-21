@@ -6,7 +6,7 @@ person:
     name: Michael Roos
     title: Vice President
     email: roosmi@onid.orst.edu
-    image: /aiaa/img/logo1.png
+    image: /aiaa/img/people/roos.jpg
 
 ---
 

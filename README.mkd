@@ -1,5 +1,14 @@
 #How to Maintain this Site
 
+TLDR:
+
+- Ask support@engr.oregonstate.edu for access to site.
+- Make a github account.
+- Fork the repository on http://github.com/ngokevin/osuaiaa
+- ssh to access.engr.oregonstate.edu
+- git clone git@github:[YOURGITHUB]/osuaiaa
+- Type . osuaiaa/push.sh to push website
+
 This guide was written to help Windows users update a website running on a
 web server. If you have any Linux users in your club, now's a good time to ask
 because they can be your go-to person.
@@ -23,19 +32,7 @@ Below are commands I have set up for you to make it easy. When doing the edit
 and new commands, it'll drop you into a text editor. I'll explain how to use
 the text editor, *nano*, below.
 
-- push: deploys the website and backs up your changes
-- editabout: edit the about page
-- edithome: edit the home page
-- newevent: add an event
-- newproject: add a project
-- newalbum: add an album
-- editpresident: edits president
-- editvicepresident: ...
-- editprojectcoordinator: ...
-- edittreasurer: ...
-- editsecretary: ...
-- editfacultyadvisor: ...
-- editcofacultyadvisor: ...
+- push: deploys the website
 
 Below are some basic Linux commands you might want to know.
 
@@ -77,7 +74,7 @@ content
 
 ##Example: Adding a New Event
 
-Enter *newevent*. You should be greeted with an event template. At the top:
+Look at event file. You should be greeted with an event template. At the top:
 
 - Change the *title* from "Example Event" to your event title.
 - Change the *slug*, which will be in the URL (slug "example" =>
@@ -125,26 +122,6 @@ If you're uploading images for an event or project page, put it in the
 *osuaiaa/img* folder and then you can reference from within the files within
 *content* folders as */img/your_image_name.jpg*
 
-# Hosting this Site in the Future
-
-Currently, this site will be running on an Amazon EC2 instance from Amazon AWS.
-If somehow you're from the future, and no one's hosting this site, and you're
-figuring out how to set up an Amazon EC2 instance to run this site. You just
-have to set up the EC2 instance, clone my Puppet repository from Github, run my
-Puppet set up that automatically sets up the web server.
-
-- Read how to set up an Amazon EC2 instance.
-- In Amazon AWS console Security Groups, add port 80 to allowed inbound ports.
-- ssh -v -i KEY-YOU-DOWNLOADED.pem ubuntu@EC2-HOSTNAME
-- sudo adduser osuaiaa
-- sudo nano /etc/ssh/sshd\_config and set PasswordAuthentication to Yes
-- sudo apt-get install git && sudo apt-get install puppet
-- ssh-keygen and add your .ssh/id\_rsa.pub to the Github account's allowed SSH keys.
-- git clone git@github.com:puppet-ngokevin
-- cd puppet-ngokevin && git checkout osuaiaa
-- sudo puppet apply -e manifests/puppet-ngokevin.pp
-- Join #osu-lug on irc.freenode.net on irc for help.
-
 #Wok
 
 This site runs on [wok](http://wok.mytmhon.com). Wok has some
@@ -154,4 +131,6 @@ stuff into files (like .txt files) and then the program reads these files, and
 spits out the generated webpages. Since static webpage generators were meant to
 be used by tech-saavy users, there is no web interface to add content to the
 site.
+
+Join #osu-lug or #wok on irc.freenode.net on irc for help.
 
