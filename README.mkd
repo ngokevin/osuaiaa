@@ -2,29 +2,31 @@
 
 TLDR:
 
-- Ask support@engr.oregonstate.edu for access to site.
+- Ask support@engr.oregonstate.edu for access to aiaawww on
+  access.engr.oregonstate.edu.
 - Make a github account.
 - Fork the repository on http://github.com/ngokevin/osuaiaa
 - ssh to access.engr.oregonstate.edu
-- git clone git@github:[YOURGITHUB]/osuaiaa
-- Type . osuaiaa/push.sh to push website
+- Enter *ssh-keygen*, press enter all the way through, copy the contents of
+  *.ssh/id\_rsa.pub* to your Github SSH keys.
+- *git clone git@github:[YOURGITHUB]/osuaiaa*
+- Enter osuaiaa/push.sh to deploy website
 
 This guide was written to help Windows users update a website running on a
 web server. If you have any Linux users in your club, now's a good time to ask
 because they can be your go-to person.
 
 No HTML or CSS knowledge is needed to maintain this site, only the ability to
-edit files on the command-line and upload pictures. I have set the webserver up
-to make this process as easy as possible. To update the site, you have to
+edit files on the command-line and upload pictures. To update the site, you have to
 connect to the webserver with Putty and edit the files with nano
 
-This method involves just the TINIEST bit of working on the command-line. But
+This method involves just the tiniest bit of working on the command-line. But
 don't worry, it's been set up to be as easy as possible. First let's connect to
 the server.
 
 - Download [Putty](http://http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe)
-- Run Putty and type *hostname* into the **Host Name** textbox and click **Open**.
-- Type in the password and press Enter.
+- Run Putty and type access.engr.oregonstate.edu into the **Host Name** textbox and click **Open**.
+- Type in your ENGR password and press Enter.
 
 ##Basic Commands
 
@@ -32,13 +34,11 @@ Below are commands I have set up for you to make it easy. When doing the edit
 and new commands, it'll drop you into a text editor. I'll explain how to use
 the text editor, *nano*, below.
 
-- push: deploys the website
-
 Below are some basic Linux commands you might want to know.
 
 - ls: list files and folders in the current folder
 - cd *folder*: go to a folder
-- cp *file* *copiedfile*: copy (and paste) file and call it copiedfile
+- cp *file* *newcopiedfile*: copy (and paste) file and call it copiedfile
 - mv *oldfile* *newfile*: rename oldfile to newfile or move oldfile to a folder
   called newfile
 - rm *file*: remove a file
@@ -59,22 +59,34 @@ In the *osuaiaa* folder, the only folder you should worry about is the
 *content* folder. Below are descriptions about files and folders within the
 content folder.
 
-content
+content folder:
+
 ....about.mkd - stuff in the about page
+
 ....contact.mkd - stuff above officer info
+
 ....events - folder containing event pages
+
 ........20121201_example_event.mkd - an example event page
+
 ....home.mkd - stuff in the home page
+
 ....gallery - folder containing album descriptions
+
 ........20121201_example_album.mkd - tells the site about an album
+
 ....people - folder containing officer information
+
 ........president.mkd - stuff about an officer
+
 ....projects - folder containing project pages
+
 ........20121201_example_project.mkd - an example project
 
 ##Example: Adding a New Event
 
-Look at event file. You should be greeted with an event template. At the top:
+Look at the other event pages and use them as a template. A good way is to copy
+another event to a new file, open it, and fill in the new event details.
 
 - Change the *title* from "Example Event" to your event title.
 - Change the *slug*, which will be in the URL (slug "example" =>
@@ -114,8 +126,8 @@ gallery. We'll cover both ways.
 - Enter osuaiaa.com as the **Host name**, osuaiaa as the **User name** and the
   password. Click *Login*.
 - On the right side, we want to be putting images in the **osuaiaa/img**
-  folder. If you're putting an image into album, put it in the
-  **osuaiaa/img/gallery/your_album_name/** folder.
+  folder. If you're putting an image into album, put it in
+  **osuaiaa/media/img/gallery/[your_album_name]/** folder.
 - Drag-and-drop to upload.
 
 If you're uploading images for an event or project page, put it in the
@@ -134,3 +146,8 @@ site.
 
 Join #osu-lug or #wok on irc.freenode.net on irc for help.
 
+#Other Resources
+
+[Linux Command Line Tutorial](http://www.stat.tamu.edu/~dahl/teaching/605/1.20/shell-tutorial/html/index.html)
+
+[Git Tutorial](http://sixrevisions.com/resources/git-tutorials-beginners/)
