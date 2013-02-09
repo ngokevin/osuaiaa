@@ -40,13 +40,18 @@ society."*
   profession
 - 35,000+ Individual members and 90+ Corporate members
 
+Learn about the [AIAA Pacific Northwest Region](http://pnwaiaa.org).
+
 # Sponsors
 
 Thanks to those that helped us make this all possible!
 
-- AIAA
-- Boeing
-- Garmin
-- Triggerfinger Software
-- Oregon NASA Space Grant
-- OSU College of Engineering
+- AIAA | [aiaa.org](http://aiaa.org)
+- Boeing | [boeing.com](http://boeing.com)
+- Garmin | [garmin.com/explore/intheair](http://www.garmin.com/en-US/explore/intheair/)
+- NW UAV | [nwuav.com](http://nwuav.com)
+- Binder Design | [binderdesign.com](http://binderdesign.com)
+- Wildman Rocketry | [wildmanrocketry.com](http://wildmanrocketry.com)
+- Triggerfinger Software | [triggerfingersoftware.com](http://triggerfingersoftware.com)
+- Oregon NASA Space Grant | [spacegrant.oregonstate.edu](http://spacegrant.oregonstate.edu)
+- OSU College of Engineering | [engineering.oregonstate.edu](http://engineering.oregonstate.edu)

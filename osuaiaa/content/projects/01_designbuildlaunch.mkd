@@ -6,7 +6,7 @@ datetime: 2012-12-02 20:00:00
 sponsor: Oregon State University
 
 image:
-    url: /aiaa/img/logo1.png
+    url: http://i.imgur.com/DLAoKLi.jpg
     where: top
 
 ---

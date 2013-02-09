@@ -34,6 +34,9 @@ through which companies can connect with the university by bringing in guest
 speakers from the professional industry and encouraging student tours of their
 facilities.
 
+OSU AIAA will be hosting a [visit from astronaut Dr. Stan
+Love](/aiaa/events/astronaut).
+
 <div class="col5">
 
 ##Schedule <span><i class="icon-calendar"></i></span>
@@ -41,6 +44,8 @@ facilities.
 ####Member's Meetings
 
 Kearney 112 at 6pm on the 2nd Wednesday of every month.
+
+Our next meeting on Feb. 27 at 6:00pm Covell 117.
 
 ####Design / Build / Fly Team
 

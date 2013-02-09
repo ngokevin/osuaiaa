@@ -1,0 +1,24 @@
+title: "AIAA Student Paper Competitions"
+category: projects
+
+slug: papercomp
+datetime: 2013-03-28 20:00:00
+sponsor: AIAA Student Conferenece
+
+image:
+    url: http://i.imgur.com/q2G1oeM.jpg
+    where: right
+
+---
+
+The AIAA Student Paper Competitions provide students with the opportunity to
+network with other students and professionals from the aerospace industry at a
+technical conference. Students present their research or research projects in a
+formal meeting in which they are judged by members from the aerospace industry.
+The winners of the competition receive a cash prize and are invited to the AIAA
+Foundation International Student Conference competition, held during the AIAA
+Aerospace Sciences Meeting each January. This year OSU AIAA is hoping to send
+several willing students to the conference to represent OSU. Whether you are
+presenting or not, the conference serves as a fun and exciting opportunity for
+those interested in aerospace. Find out more about [paper
+competitions](https://region6.aiaastudentconference.org/)

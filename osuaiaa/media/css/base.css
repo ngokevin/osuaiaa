@@ -63,6 +63,7 @@ hr {
   color: #141414; }
 
 div.header {
+  border-radius: 3px;
   display: inline-block;
   margin-top: -20px;
   padding-top: 30px;

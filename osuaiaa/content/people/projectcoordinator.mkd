@@ -6,7 +6,7 @@ person:
     name: Victor Dang
     title: Project Coordinator
     email: dangvi@onid.orst.edu
-    image: /aiaa/img/logo1.png
+    image: http://imgur.com/FfAd9us.jpg
 
 ---
 

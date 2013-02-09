@@ -3,7 +3,7 @@ tags: advisor
 
 rank: 1
 person:
-    name: Nancy Squires
+    name: Dr. Nancy Squires
     title: Faculty Advisor
     email: squires@engr.orst.edu
     image: /aiaa/img/people/squires.jpg
