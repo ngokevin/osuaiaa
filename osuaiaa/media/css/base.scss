@@ -74,6 +74,7 @@ div.header {
     &:after {
         background: url('../img/textures/solid.png') repeat scroll 0 0;
         bottom: 0;
+        border-radius: 3px;
         display: block;
         clear: both;
         content: "";

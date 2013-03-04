@@ -15,7 +15,7 @@ body {
   background: url("../img/textures/low_contrast_linen.png") repeat scroll 0 0;
   background-color: #fafaff;
   color: #ebebeb;
-  font-family: 'PT Sans', sans-serif; }
+  font-family: "PT Sans", sans-serif; }
 
 .container {
   width: 960px;
@@ -28,7 +28,7 @@ body {
     clear: both; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Arvo', serif; }
+  font-family: "Arvo", serif; }
   h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     color: #cd5926;
     font-weight: bold;
@@ -72,6 +72,7 @@ div.header {
   div.header:after {
     background: url("../img/textures/solid.png") repeat scroll 0 0;
     bottom: 0;
+    border-radius: 3px;
     display: block;
     clear: both;
     content: "";
@@ -140,7 +141,7 @@ div.header {
       text-decoration: underline; }
 
 .navigation {
-  font-family: 'Arvo', serif;
+  font-family: "Arvo", serif;
   margin: 20px 0;
   text-align: center; }
   .navigation a {
