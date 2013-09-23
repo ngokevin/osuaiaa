@@ -9,7 +9,7 @@ TLDR:
 - ssh to access.engr.oregonstate.edu
 - Enter *ssh-keygen*, press enter all the way through, copy the contents of
   *.ssh/id\_rsa.pub* to your Github SSH keys.
-- *git clone git@github:[YOURGITHUB]/osuaiaa*
+- *git clone --recursive git@github:[YOURGITHUB]/osuaiaa*
 - Enter osuaiaa/push.sh to deploy website
 
 This guide was written to help Windows users update a website running on a
