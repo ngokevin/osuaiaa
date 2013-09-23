@@ -12,3 +12,5 @@ rm -rf /nfs/farm/groups/aiaa/public_html/*
 cp -r * /nfs/farm/groups/aiaa/public_html
 mv /nfs/farm/groups/aiaa/public_html/aiaa/* /nfs/farm/groups/aiaa/public_html/
 cd ../
+cd /nfs/farm/groups/aiaa
+chmod 755 * -R
