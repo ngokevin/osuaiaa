@@ -8,6 +8,7 @@ THUMBNAIL_PREFIX = 'THUMB_'
 GALLERY_DIR = os.path.abspath("./media/img/gallery/") + '/'
 FILE_TYPES = ["jpg", "JPG", "jpeg", "JPEG", "png", "PNG"]
 
+
 def create_thumbnails():
     """
     Wok site.start hook
@@ -53,7 +54,10 @@ def create_thumbnails():
                             thumbnail_size[1] = height
 
                         # convert to thumbnail image
-                        image.thumbnail(thumbnail_size, Image.ANTIALIAS)
+                        try:
+                            image.thumbnail(thumbnail_size, Image.ANTIALIAS)
+                        except Exception as e:
+                            print image
 
                         # prefix thumbnail file with prefix
                         image_name = '/' + THUMBNAIL_PREFIX + infile.split('/')[-1]

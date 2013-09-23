@@ -1,0 +1,16 @@
+title: New event
+category: events
+
+slug: newevent
+datetime: 2013-09-23 00:00:00
+
+location: Milam Auditorium
+image:
+    url: http://i.imgur.com/YUq1EUL.png
+    where: right
+
+---
+
+Join OSU AIAA as we host Astronaut Dr. Stan Love in Milam auditorium on March 4
+from 6:00-7:00PM. This will be a technical presentation in which Dr. Love will
+discuss the challenges we face in getting to Mars.

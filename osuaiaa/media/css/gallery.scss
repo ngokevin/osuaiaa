@@ -1,13 +1,16 @@
 @import "globals.scss";
 
 #gallery {
-    margin-top: 1.1em;
+    .album-preview {
+        display: inline;
+        float: left;
+        margin-right: 13px;
+        width: 220px;
+    }
     a {
-        @include img-box-shadow();
-        background-color: #EEEEE6;
-        border-color: #DDDDD3;
-        border-style: double;
-        border-width: 7px;
+        @include def-box-shadow();
+        background: url("../img/textures/accent.png") repeat scroll 0 0 transparent;
+        border: 7px double $light-gray;
         cursor: pointer;
         float: left;
         height: 210px;
@@ -17,8 +20,10 @@
         width: 210px;
         z-index: 1;
         img {
-          float: left;
-          position: absolute;
+            float: left;
+            min-height: 210px;
+            min-width: 210px;
+            position: absolute;
         }
     }
     img:hover {
@@ -27,21 +32,15 @@
         opacity: .75;
     }
     h3 span {
-        background: url('/aiaa/img/textures/assault.png') repeat scroll 0 0;
+        background: rgba(10, 10, 20, .85);
         border-radius: 2px;
         bottom: 60px;
-        color: white;
+        color: $white;
         font: bold 16px / 37px Helvetica, Sans-Serif;
         left: 7px;
         letter-spacing: -1px;
         padding: 10px;
         position: relative;
         z-index: 1001;
-    }
-    .span4 {
-        display: inline;
-        float: left;
-        margin-right: 15px;
-        width: 220px;
     }
 }
